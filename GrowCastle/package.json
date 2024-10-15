@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "gameassistant3": "^1.2.72",
+    "krq_gravity_engine_adapter": "^1.0.18",
+    "krq_gravity_engine_cocos": "^4.8.10",
+    "krq_gravity_engine_wechat": "^1.0.0",
+    "krq_thinking_analytics_adapter": "^2.0.0",
+    "krq_thinking_analytics_cocos": "^3.0.4",
+    "krq_thinking_analytics_wechat": "^1.0.0"
+  }
+}

@@ -1,0 +1,69 @@
+
+1010.png
+size: 142,173
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 0, 50
+  size: 82, 66
+  orig: 84, 69
+  offset: 1, 2
+  index: -1
+2
+  rotate: true
+  xy: 0, 0
+  size: 48, 50
+  orig: 50, 52
+  offset: 1, 1
+  index: -1
+3
+  rotate: false
+  xy: 52, 16
+  size: 30, 32
+  orig: 30, 32
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 84, 7
+  size: 25, 31
+  orig: 25, 31
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 117, 1
+  size: 9, 31
+  orig: 12, 34
+  offset: 1, 1
+  index: -1
+6
+  rotate: false
+  xy: 128, 1
+  size: 8, 31
+  orig: 10, 33
+  offset: 1, 1
+  index: -1
+7
+  rotate: true
+  xy: 84, 76
+  size: 40, 58
+  orig: 42, 60
+  offset: 1, 1
+  index: -1
+8
+  rotate: true
+  xy: 84, 34
+  size: 40, 58
+  orig: 42, 60
+  offset: 1, 1
+  index: -1
+y
+  rotate: false
+  xy: 0, 118
+  size: 138, 55
+  orig: 138, 55
+  offset: 0, 0
+  index: -1

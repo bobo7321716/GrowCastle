@@ -1,0 +1,125 @@
+
+meiren.png
+size: 1751,1098
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 381, 342
+  size: 375, 276
+  orig: 377, 278
+  offset: 1, 1
+  index: -1
+10
+  rotate: true
+  xy: 0, 333
+  size: 380, 379
+  orig: 386, 385
+  offset: 3, 3
+  index: -1
+11
+  rotate: false
+  xy: 355, 5
+  size: 350, 326
+  orig: 354, 331
+  offset: 2, 3
+  index: -1
+12
+  rotate: true
+  xy: 707, 0
+  size: 350, 323
+  orig: 355, 329
+  offset: 2, 3
+  index: -1
+13
+  rotate: false
+  xy: 0, 5
+  size: 353, 326
+  orig: 358, 331
+  offset: 2, 2
+  index: -1
+14
+  rotate: true
+  xy: 1354, 25
+  size: 353, 323
+  orig: 358, 329
+  offset: 2, 3
+  index: -1
+15
+  rotate: true
+  xy: 1017, 377
+  size: 355, 322
+  orig: 360, 327
+  offset: 2, 2
+  index: -1
+16
+  rotate: true
+  xy: 1118, 743
+  size: 355, 320
+  orig: 361, 326
+  offset: 3, 3
+  index: -1
+17
+  rotate: true
+  xy: 1032, 21
+  size: 354, 320
+  orig: 360, 327
+  offset: 3, 3
+  index: -1
+2
+  rotate: false
+  xy: 1440, 591
+  size: 296, 234
+  orig: 298, 237
+  offset: 1, 2
+  index: -1
+3
+  rotate: false
+  xy: 1550, 437
+  size: 186, 152
+  orig: 188, 154
+  offset: 1, 1
+  index: -1
+4
+  rotate: false
+  xy: 1341, 380
+  size: 207, 209
+  orig: 216, 218
+  offset: 5, 4
+  index: -1
+5
+  rotate: false
+  xy: 1440, 827
+  size: 311, 271
+  orig: 318, 280
+  offset: 4, 3
+  index: -1
+6
+  rotate: true
+  xy: 659, 352
+  size: 365, 356
+  orig: 370, 364
+  offset: 3, 2
+  index: -1
+7
+  rotate: false
+  xy: 760, 734
+  size: 356, 364
+  orig: 360, 366
+  offset: 1, 1
+  index: -1
+8
+  rotate: true
+  xy: 380, 719
+  size: 379, 378
+  orig: 385, 383
+  offset: 3, 3
+  index: -1
+9
+  rotate: false
+  xy: 0, 715
+  size: 378, 383
+  orig: 384, 389
+  offset: 3, 3
+  index: -1

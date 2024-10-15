@@ -1,0 +1,76 @@
+
+shub.png
+size: 109,201
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm1
+  rotate: false
+  xy: 57, 64
+  size: 23, 25
+  orig: 24, 26
+  offset: 1, 0
+  index: -1
+arm2
+  rotate: false
+  xy: 82, 58
+  size: 27, 31
+  orig: 27, 31
+  offset: 0, 0
+  index: -1
+armor1
+  rotate: false
+  xy: 60, 29
+  size: 31, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+armor2
+  rotate: false
+  xy: 60, 0
+  size: 31, 27
+  orig: 31, 27
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 57, 91
+  size: 45, 41
+  orig: 45, 41
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 0, 7
+  size: 58, 54
+  orig: 61, 55
+  offset: 1, 1
+  index: -1
+leg1
+  rotate: false
+  xy: 98, 140
+  size: 9, 29
+  orig: 10, 30
+  offset: 0, 0
+  index: -1
+leg2
+  rotate: false
+  xy: 98, 171
+  size: 9, 30
+  orig: 9, 31
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: false
+  xy: 57, 134
+  size: 39, 67
+  orig: 39, 67
+  offset: 0, 0
+  index: -1
+y
+  rotate: true
+  xy: 0, 63
+  size: 138, 55
+  orig: 138, 55
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+100006.png
+size: 122,146
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm1
+  rotate: false
+  xy: 94, 38
+  size: 24, 21
+  orig: 24, 21
+  offset: 0, 0
+  index: -1
+arm2
+  rotate: false
+  xy: 94, 15
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 57, 14
+  size: 45, 35
+  orig: 46, 35
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 57, 90
+  size: 56, 65
+  orig: 56, 65
+  offset: 0, 0
+  index: -1
+leg1
+  rotate: true
+  xy: 26, 1
+  size: 5, 26
+  orig: 5, 26
+  offset: 0, 0
+  index: -1
+leg2
+  rotate: true
+  xy: 0, 0
+  size: 6, 24
+  orig: 6, 24
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: true
+  xy: 57, 61
+  size: 27, 64
+  orig: 27, 64
+  offset: 0, 0
+  index: -1
+y
+  rotate: true
+  xy: 0, 8
+  size: 138, 55
+  orig: 138, 55
+  offset: 0, 0
+  index: -1

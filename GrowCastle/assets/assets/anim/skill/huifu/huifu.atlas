@@ -1,0 +1,13 @@
+
+huifu.png
+size: 89,92
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 0, 0
+  size: 89, 92
+  orig: 92, 94
+  offset: 2, 1
+  index: -1

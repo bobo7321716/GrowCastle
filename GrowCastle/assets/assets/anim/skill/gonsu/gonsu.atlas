@@ -1,0 +1,27 @@
+
+gonsu.png
+size: 182,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 45, 5
+  size: 27, 77
+  orig: 200, 200
+  offset: 88, 71
+  index: -1
+2
+  rotate: true
+  xy: 0, 6
+  size: 26, 43
+  orig: 200, 200
+  offset: 87, 72
+  index: -1
+3
+  rotate: true
+  xy: 124, 0
+  size: 32, 58
+  orig: 200, 200
+  offset: 84, 72
+  index: -1

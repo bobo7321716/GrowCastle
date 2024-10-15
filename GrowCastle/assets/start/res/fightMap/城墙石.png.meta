@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "acab0568-a734-493e-8f11-8d47b9317751",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 720,
+  "height": 658,
+  "platformSettings": {},
+  "subMetas": {
+    "城墙石": {
+      "ver": "1.0.6",
+      "uuid": "94363254-bc4a-4439-b843-1306511f423a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "acab0568-a734-493e-8f11-8d47b9317751",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 720,
+      "height": 658,
+      "rawWidth": 720,
+      "rawHeight": 658,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

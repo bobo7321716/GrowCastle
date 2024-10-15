@@ -1,0 +1,62 @@
+
+100013.png
+size: 139,170
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm1
+  rotate: false
+  xy: 109, 37
+  size: 25, 21
+  orig: 25, 23
+  offset: 0, 1
+  index: -1
+arm2
+  rotate: true
+  xy: 69, 6
+  size: 21, 22
+  orig: 23, 24
+  offset: 1, 1
+  index: -1
+body
+  rotate: false
+  xy: 69, 29
+  size: 38, 36
+  orig: 40, 38
+  offset: 0, 1
+  index: -1
+head
+  rotate: false
+  xy: 0, 0
+  size: 67, 65
+  orig: 69, 67
+  offset: 1, 1
+  index: -1
+leg1
+  rotate: true
+  xy: 109, 60
+  size: 5, 27
+  orig: 7, 27
+  offset: 1, 0
+  index: -1
+leg2
+  rotate: true
+  xy: 109, 28
+  size: 7, 24
+  orig: 9, 26
+  offset: 1, 1
+  index: -1
+weapon
+  rotate: true
+  xy: 0, 124
+  size: 46, 139
+  orig: 46, 139
+  offset: 0, 0
+  index: -1
+y
+  rotate: false
+  xy: 0, 67
+  size: 138, 55
+  orig: 138, 55
+  offset: 0, 0
+  index: -1

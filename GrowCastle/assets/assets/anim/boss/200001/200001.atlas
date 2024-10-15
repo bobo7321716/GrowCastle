@@ -1,0 +1,76 @@
+
+200001.png
+size: 170,234
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm1
+  rotate: true
+  xy: 128, 17
+  size: 31, 27
+  orig: 32, 27
+  offset: 1, 0
+  index: -1
+arm2
+  rotate: false
+  xy: 140, 50
+  size: 29, 33
+  orig: 29, 33
+  offset: 0, 0
+  index: -1
+armor1
+  rotate: true
+  xy: 140, 85
+  size: 31, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+armor2
+  rotate: false
+  xy: 114, 139
+  size: 33, 31
+  orig: 33, 31
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 114, 172
+  size: 62, 52
+  orig: 68, 56
+  offset: 3, 2
+  index: -1
+head
+  rotate: false
+  xy: 0, 113
+  size: 112, 121
+  orig: 112, 121
+  offset: 0, 0
+  index: -1
+leg1
+  rotate: true
+  xy: 114, 118
+  size: 19, 34
+  orig: 22, 38
+  offset: 1, 2
+  index: -1
+leg2
+  rotate: false
+  xy: 150, 136
+  size: 18, 34
+  orig: 20, 35
+  offset: 1, 0
+  index: -1
+weapon
+  rotate: true
+  xy: 0, 0
+  size: 48, 126
+  orig: 48, 126
+  offset: 0, 0
+  index: -1
+y
+  rotate: false
+  xy: 0, 56
+  size: 138, 55
+  orig: 138, 55
+  offset: 0, 0
+  index: -1

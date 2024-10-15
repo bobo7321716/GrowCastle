@@ -1,0 +1,55 @@
+
+chengbaoshengji.png
+size: 831,468
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+001
+  rotate: false
+  xy: 779, 273
+  size: 52, 195
+  orig: 57, 203
+  offset: 2, 4
+  index: -1
+002
+  rotate: false
+  xy: 779, 6
+  size: 48, 265
+  orig: 53, 276
+  offset: 2, 5
+  index: -1
+003
+  rotate: false
+  xy: 722, 184
+  size: 55, 284
+  orig: 61, 295
+  offset: 3, 6
+  index: -1
+004
+  rotate: false
+  xy: 722, 79
+  size: 46, 103
+  orig: 52, 113
+  offset: 3, 5
+  index: -1
+D1
+  rotate: true
+  xy: 722, 3
+  size: 27, 33
+  orig: 32, 39
+  offset: 3, 3
+  index: -1
+D2
+  rotate: false
+  xy: 722, 32
+  size: 40, 45
+  orig: 45, 51
+  offset: 3, 3
+  index: -1
+guang
+  rotate: false
+  xy: 0, 0
+  size: 720, 468
+  orig: 722, 471
+  offset: 1, 1
+  index: -1

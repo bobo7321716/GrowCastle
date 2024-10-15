@@ -1,0 +1,69 @@
+
+shenwei.png
+size: 1645,243
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 0, 38
+  size: 122, 205
+  orig: 135, 211
+  offset: 5, 3
+  index: -1
+2
+  rotate: true
+  xy: 809, 11
+  size: 101, 417
+  orig: 106, 422
+  offset: 2, 2
+  index: -1
+3
+  rotate: true
+  xy: 420, 114
+  size: 129, 432
+  orig: 132, 435
+  offset: 1, 1
+  index: -1
+4
+  rotate: true
+  xy: 124, 95
+  size: 148, 294
+  orig: 152, 298
+  offset: 2, 2
+  index: -1
+5
+  rotate: true
+  xy: 854, 121
+  size: 122, 405
+  orig: 135, 407
+  offset: 11, 1
+  index: -1
+6
+  rotate: true
+  xy: 1228, 0
+  size: 119, 388
+  orig: 123, 393
+  offset: 3, 2
+  index: -1
+7
+  rotate: true
+  xy: 420, 7
+  size: 105, 387
+  orig: 108, 391
+  offset: 2, 1
+  index: -1
+8
+  rotate: true
+  xy: 1261, 127
+  size: 116, 384
+  orig: 118, 388
+  offset: 1, 1
+  index: -1
+9
+  rotate: false
+  xy: 124, 17
+  size: 100, 76
+  orig: 102, 78
+  offset: 1, 1
+  index: -1

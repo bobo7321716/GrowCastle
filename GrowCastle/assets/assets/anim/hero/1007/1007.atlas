@@ -1,0 +1,69 @@
+
+1007.png
+size: 88,262
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 0, 189
+  size: 73, 61
+  orig: 76, 63
+  offset: 2, 1
+  index: -1
+2
+  rotate: true
+  xy: 0, 0
+  size: 47, 48
+  orig: 47, 50
+  offset: 0, 1
+  index: -1
+3
+  rotate: true
+  xy: 50, 22
+  size: 25, 23
+  orig: 25, 29
+  offset: 0, 4
+  index: -1
+4
+  rotate: false
+  xy: 57, 61
+  size: 25, 23
+  orig: 27, 30
+  offset: 0, 5
+  index: -1
+5
+  rotate: true
+  xy: 57, 50
+  size: 9, 31
+  orig: 11, 33
+  offset: 1, 1
+  index: -1
+6
+  rotate: true
+  xy: 50, 12
+  size: 8, 32
+  orig: 10, 36
+  offset: 1, 1
+  index: -1
+7
+  rotate: false
+  xy: 63, 189
+  size: 23, 73
+  orig: 25, 77
+  offset: 1, 3
+  index: -1
+8
+  rotate: true
+  xy: 57, 86
+  size: 101, 30
+  orig: 101, 30
+  offset: 0, 0
+  index: -1
+y
+  rotate: true
+  xy: 0, 49
+  size: 138, 55
+  orig: 138, 55
+  offset: 0, 0
+  index: -1
