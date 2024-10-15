@@ -53,6 +53,9 @@ export default class MainView extends UiBase {
     fightNode: cc.Node = null;
 
     @property(cc.Node)
+    fightBtnNode: cc.Node = null;
+
+    @property(cc.Node)
     btnNode: cc.Node = null;
 
     @property(cc.Node)
@@ -103,8 +106,10 @@ export default class MainView extends UiBase {
 
         this.normalNode.stopAllActions();
         this.fightNode.stopAllActions();
+        this.fightBtnNode.stopAllActions();
         this.normalNode.y = 0;
-        this.fightNode.y = -150;
+        this.fightNode.y = -72;
+        this.fightBtnNode.x = -70;
         this.btnNode.stopAllActions();
         this.btnNode.y = 208;
 
@@ -200,8 +205,12 @@ export default class MainView extends UiBase {
         UIManager.ins.isSceneBlockInput = true;
         this.normalNode.stopAllActions();
         this.fightNode.stopAllActions();
+        this.fightBtnNode.stopAllActions();
         this.refreshBtns();
         if (isStart) {
+            cc.tween(this.fightBtnNode)
+                .to(0.5, { x: 70 })
+                .start()
             cc.tween(this.opacityBtnNode)
                 .to(0.5, { x: 410 })
                 .start();
@@ -209,7 +218,7 @@ export default class MainView extends UiBase {
                 .to(0.5, { y: -300 })
                 .start()
             cc.tween(this.fightNode)
-                .to(0.5, { y: 0 })
+                .to(0.5, { y: 66 })
                 .call(() => {
                     UIManager.ins.isSceneBlockInput = false;
                     this.isOnMoveAnim = false;
@@ -217,6 +226,9 @@ export default class MainView extends UiBase {
                 .start()
             this.mainClick();
         } else {
+            cc.tween(this.fightBtnNode)
+                .to(0.5, { x: -70 })
+                .start()
             cc.tween(this.opacityBtnNode)
                 .to(0.5, { x: 310 })
                 .start();
@@ -224,7 +236,7 @@ export default class MainView extends UiBase {
                 .to(0.5, { y: 0 })
                 .start()
             cc.tween(this.fightNode)
-                .to(0.5, { y: -150 })
+                .to(0.5, { y: -72 })
                 .call(() => {
                     UIManager.ins.isSceneBlockInput = false;
                     this.isOnMoveAnim = false;

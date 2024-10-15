@@ -35,6 +35,7 @@ import { BulletConfigMgr } from "./BulletConfig";
 import { GoldmineConfigMgr } from "./GoldmineConfig";
 import { HomeAttributeConfigMgr } from "./HomeAttributeConfig";
 import { HomebuildConfigMgr } from "./HomebuildConfig";
+import MpRecoverConfigMgr from "./MpRecoverConfigMgr";
 
 export const Config = {
 
@@ -67,4 +68,5 @@ export const Config = {
     RedPointConfig: RedPointConfigMgr,
     GuideConfig: GuideConfigMgr,
     StoryConfig: StoryConfigMgr,
+    MpRecoverConfig:MpRecoverConfigMgr
 }

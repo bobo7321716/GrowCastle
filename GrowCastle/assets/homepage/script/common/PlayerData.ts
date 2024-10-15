@@ -98,6 +98,8 @@ export class PlayerData {
     public carstelLv: number = 1;
     /**弓箭手等级 */
     public archerLv: number = 1;
+    /**法力恢复等级 */
+    public mpRecoverLv:number = 1;
     /**军备的信息 */
     public armamentInfo: { id: number, lv: number }[] = []
     /**金矿的等级 */
@@ -157,6 +159,7 @@ export class PlayerData {
         this.lastLoginTime = Date.now();
         this.logOutDuration = Date.now() - this.lastLogOutTime;
         GamingData.isOnGuide = this.guideGroup < 4;
+        GamingData.isOnGuide = false;
         this.saveData();
     }
 
