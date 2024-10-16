@@ -78,7 +78,7 @@ export default class FightMap extends cc.Component {
         return this.refreshBaseArr(false);
     }
 
-    refreshBaseArr(isStart: boolean) {
+    refreshBaseArr(isStart: boolean = false) {
         this.playerBase.init({ roleType: Global.RoleType.Player, roleId: 0 }, this.playerDeath.bind(this), isStart);
         this.archerCol = this.archerNode.getComponent(ArcherContent);
         this.archerCol.init();

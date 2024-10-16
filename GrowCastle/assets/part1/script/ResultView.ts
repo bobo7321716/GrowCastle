@@ -41,18 +41,29 @@ export default class ResultView extends UiBase {
     @property(cc.Button)
     closeBtn: cc.Button = null;
 
+    @property(cc.Label)
+    numLab: cc.Label = null;
+
+    @property(cc.Node)
+    closeNode: cc.Node = null;
+
     private isSuc: boolean = false;
     private fightType: Global.FightType = Global.FightType.Normal;
     private cb: (isRevive: boolean) => void = null;
     private isRevive: boolean = false;
+    private coinNum: number = 0;
 
-    init(isSuc: boolean, fightType: Global.FightType, cb: (isRevive: boolean) => void, isGiveUp: boolean = false) {
+    init(isSuc: boolean, coinNum: number, fightType: Global.FightType, cb: (isRevive: boolean) => void, isGiveUp: boolean = false) {
+        isSuc = true;
         this.isSuc = isSuc;
         this.fightType = fightType;
         this.cb = cb;
         this.isRevive = false;
         this.sucNode.active = isSuc;
         this.failNode.active = !isSuc;
+        this.numLab.string = coinNum + "";
+        this.closeNode.active = false;
+        this.coinNum = coinNum;
 
         this.sucAnim1.stopAllActions();
         this.sucAnim1.scale = 0.1;
@@ -81,6 +92,7 @@ export default class ResultView extends UiBase {
                         .to(0.5, { y: 0 }, { easing: "backOut" })
                         .call(() => {
                             this.closeBtn.interactable = true;
+                            this.closeNode.active = true;
                         })
                         .start()
                 })
@@ -161,5 +173,10 @@ export default class ResultView extends UiBase {
         this.isRevive = false;
         UIManager.ins.closeView();
         this.cb && this.cb(false);
+    }
+
+    doubleClick() {
+        PlayerData.ins.changeItemNum(Global.ItemId.Coin, this.coinNum);
+        UIManager.ins.closeView();
     }
 }

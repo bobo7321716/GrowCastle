@@ -115,6 +115,8 @@ export default class EnemyManager extends cc.Component {
     private wavePromiseMap: Map<number, any[]> = new Map();
     /**是否弹出引导 */
     private isShowGuide: boolean = false;
+    /**当前波次掉落铜币总数 */
+    private totalDropCoin: number = 0;
 
     public static ins: EnemyManager = null;
     protected onLoad(): void {
@@ -195,7 +197,7 @@ export default class EnemyManager extends cc.Component {
                                     if (this._enemyBaseMap.size <= 0) {
                                         if (this.curWave >= this.totalWave) {
                                             if (this.waveConfig.wavetype != Global.FightType.Territory) {
-                                                FightManager.ins.endFight(true);
+                                                FightManager.ins.endFight(true, this.totalDropCoin);
                                             }
                                         }
                                     }
@@ -274,9 +276,11 @@ export default class EnemyManager extends cc.Component {
         let add = DataManager.ins.get(ConstConfigMgr).findConfig(Global.GameConst.铜币提升每级加成).value;
         actualCoin *= (1 + add / 100);
 
+        actualCoin = Math.floor(actualCoin);
         PlayerData.ins.changeItemNum(Global.ItemId.Coin, actualCoin, false);
         let worldPos = enemyBase.node.convertToWorldSpaceAR(cc.Vec2.ZERO);
         EffectManager.ins.createDrop(Global.ItemId.Coin, actualCoin, worldPos);
+        this.totalDropCoin += actualCoin;
 
         //获得经验
         let exp = arg[3];
@@ -483,6 +487,7 @@ export default class EnemyManager extends cc.Component {
         }
         this.curWave = 0;
         this.bossCome = false;
+        this.totalDropCoin = 0;
         this.totalWave = this.waveConfig.lastWave.length > 0 ? this.waveConfig.wavenum + 1 : this.waveConfig.wavenum;
         this.waveTimer = this.waveConfig.wavetime;
         this.waveEnemyNumArr = [];
