@@ -8,6 +8,7 @@ import CastleConfig, { CastleConfigMgr } from "../../../homepage/script/config/C
 import DataManager from "../../../homepage/script/manager/DataManager";
 import HomeManager from "../../../homepage/script/manager/HomeManager";
 import ProgressCol from "../ProgressCol";
+import SkillIconCol from "../SkillIconCol";
 import { RoleBase } from "./RoleBase";
 import RoleBaseData from "./RoleBaseData";
 
@@ -124,6 +125,7 @@ export abstract class PlayerBase extends RoleBase {
         }
         this.roleDataInfo.mp += changeNum;
         this.mpProgress.change(changeNum);
+        SkillIconCol.ins.refreshIcon(this.roleDataInfo.mp);
     }
 
     changeHp(changeNum: number): void {

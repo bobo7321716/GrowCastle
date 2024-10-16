@@ -14,6 +14,7 @@ import BuildPos from "./BuildPos";
 import EnemyManager from "./EnemyManager";
 import FightManager from "./FightManager";
 import HeroPos from "./HeroPos";
+import SkillIconCol from "./SkillIconCol";
 import { PlayerBase } from "./role/PlayerBase";
 import { RoleBase } from "./role/RoleBase";
 
@@ -73,6 +74,7 @@ export default class FightMap extends cc.Component {
         this.node.height = winSize.height;
         this.bossComing.stopAllActions();
         this.bossComing.opacity = 0;
+        SkillIconCol.ins.initIcon();
         return this.refreshBaseArr();
     }
 
@@ -204,5 +206,9 @@ export default class FightMap extends cc.Component {
         if (pos1) pos1.showPosHand();
         let pos2 = this.buildPosArr.find(v => v.buildBase.baseRole == null);
         if (pos2) pos2.showPosHand();
+    }
+
+    releaseHeroSkill(index: number) {
+        this.heroPosArr[index].releaseSkill();
     }
 }

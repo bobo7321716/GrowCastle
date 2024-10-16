@@ -99,7 +99,7 @@ export class PlayerData {
     /**弓箭手等级 */
     public archerLv: number = 1;
     /**法力恢复等级 */
-    public mpRecoverLv:number = 1;
+    public mpRecoverLv: number = 1;
     /**军备的信息 */
     public armamentInfo: { id: number, lv: number }[] = []
     /**金矿的等级 */

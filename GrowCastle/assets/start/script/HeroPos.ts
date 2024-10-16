@@ -37,7 +37,7 @@ export default class HeroPos extends cc.Component {
     heroClick() {
         AudioManager.ins.playClickAudio();
         if (FightManager.ins.isOnFight) {
-            this.heroBase.skill();
+            // this.heroBase.skill();
         } else {
             UIManager.ins.openView(UiPath.ChooseHeroUI).then((view: ChooseHeroUI) => {
                 view.init();
@@ -49,5 +49,9 @@ export default class HeroPos extends cc.Component {
         if (!this.heroBase.baseRole && this.posHand) {
             this.posHand.showGuideHand();
         }
+    }
+
+    releaseSkill() {
+        this.heroBase.skill();
     }
 }

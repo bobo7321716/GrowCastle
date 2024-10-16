@@ -33,6 +33,7 @@ import { SoundPath } from "../../homepage/script/common/SoundPath";
 import BtnCol from "../../homepage/script/common/BtnCol";
 import { WorldEventManager } from "../../homepage/script/common/WorldEventManager";
 import { Util } from "../../homepage/script/common/Util";
+import SkillIconCol from "../../start/script/SkillIconCol";
 
 const { ccclass, property } = cc._decorator;
 
@@ -180,7 +181,7 @@ export default class HeroItem extends cc.Component {
         this.stateNodes.forEach((v, k) => {
             v.active = k == this.state;
         })
-
+        SkillIconCol.ins.initIcon();
     }
     //升级
     upGradeClick() {
