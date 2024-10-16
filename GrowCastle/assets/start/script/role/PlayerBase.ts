@@ -5,6 +5,7 @@ import { PlayerData } from "../../../homepage/script/common/PlayerData";
 import TipManager from "../../../homepage/script/common/TipManager";
 import { AbManager } from "../../../homepage/script/common/asssetsBundle/AbManager";
 import CastleConfig, { CastleConfigMgr } from "../../../homepage/script/config/CastleConfig";
+import { MpRecoverConfigMgr } from "../../../homepage/script/config/MpRecoverConfig";
 import DataManager from "../../../homepage/script/manager/DataManager";
 import HomeManager from "../../../homepage/script/manager/HomeManager";
 import ProgressCol from "../ProgressCol";
@@ -33,11 +34,12 @@ export abstract class PlayerBase extends RoleBase {
     private mpRecoverTimer: number = 0;
     private hpRecoverTimer: number = 0;
     private hpRecover: number = 0;
+    private maxMp: number = 0;
 
-    init(roleInfo: { roleType: Global.RoleType, roleId: number }, deathCb: (roleBase: RoleBase, atker: RoleBase) => void) {
+    init(roleInfo: { roleType: Global.RoleType, roleId: number }, deathCb: (roleBase: RoleBase, atker: RoleBase) => void, isStart: boolean = false) {
         this.roleInfo = roleInfo;
         this.deathCb = deathCb;
-        this.refreshPlayerInfo();
+        this.refreshPlayerInfo(isStart);
         this.isDeath = false;
         this.mpRecoverTimer = 0;
         this.hpEffect.opacity = 0;
@@ -57,7 +59,7 @@ export abstract class PlayerBase extends RoleBase {
         this.closeAllEffectAnim();
     }
 
-    refreshPlayerInfo() {
+    refreshPlayerInfo(isStart: boolean = false) {
         this.castleConfig = DataManager.ins.get(CastleConfigMgr).getDataById(PlayerData.ins.carstelLv);
 
         this.baseRole = this.initBaseRole(this.castleConfig);
@@ -75,12 +77,15 @@ export abstract class PlayerBase extends RoleBase {
             this.baseRole.mp += GamingData.getSkillAdd(param2[0], this.baseRole.mp);
         }
         this.roleDataInfo.hp = this.baseRole.hp;
-        this.roleDataInfo.mp = this.baseRole.mp;
-        this.roleDataInfo.mp_recover = HomeManager.ins.getHomeTotalValue(Global.ArmamentAttribute.法力恢复每5秒, this.castleConfig.mprecover);
+        this.maxMp = this.baseRole.mp;
+        this.roleDataInfo.mp = isStart ? 0 : this.maxMp;
+        // this.roleDataInfo.mp_recover = HomeManager.ins.getHomeTotalValue(Global.ArmamentAttribute.法力恢复每5秒, this.castleConfig.mprecover);
+        this.roleDataInfo.mp_recover = DataManager.ins.get(MpRecoverConfigMgr).getDataById(PlayerData.ins.mpRecoverLv).recover;
         this.roleDataInfo.hp_recover = HomeManager.ins.getHomeTotalValue(Global.ArmamentAttribute.城墙耐久度每5秒, 0);
 
         this.progress.init(this.roleDataInfo.hp);
-        this.mpProgress.init(this.roleDataInfo.mp);
+        this.mpProgress.init(this.maxMp);
+        isStart && this.mpProgress.setCurNum(0);
 
         this.sprNode.children.forEach(v => {
             let spr = v.getComponent(cc.Sprite);
@@ -142,7 +147,7 @@ export abstract class PlayerBase extends RoleBase {
 
     fightUpdate(dt: number): void {
         super.fightUpdate(dt);
-        if (this.roleDataInfo.mp < this.baseRole.mp) {
+        if (this.roleDataInfo.mp < this.maxMp) {
             this.mpRecoverTimer += dt;
             if (this.mpRecoverTimer >= 1) {
                 this.mpRecoverTimer = 0;

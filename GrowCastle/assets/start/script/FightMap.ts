@@ -75,11 +75,11 @@ export default class FightMap extends cc.Component {
         this.bossComing.stopAllActions();
         this.bossComing.opacity = 0;
         SkillIconCol.ins.initIcon();
-        return this.refreshBaseArr();
+        return this.refreshBaseArr(false);
     }
 
-    refreshBaseArr() {
-        this.playerBase.init({ roleType: Global.RoleType.Player, roleId: 0 }, this.playerDeath.bind(this));
+    refreshBaseArr(isStart: boolean) {
+        this.playerBase.init({ roleType: Global.RoleType.Player, roleId: 0 }, this.playerDeath.bind(this), isStart);
         this.archerCol = this.archerNode.getComponent(ArcherContent);
         this.archerCol.init();
 
@@ -155,7 +155,7 @@ export default class FightMap extends cc.Component {
                             })
                         })
                     } else {
-                        this.refreshBaseArr();
+                        this.refreshBaseArr(isStart);
                         this._fightRoleBaseArr.forEach(v => {
                             v.roleDataInfo && v.startFight(this.waveConfig.wavetype);
                         })
@@ -166,7 +166,7 @@ export default class FightMap extends cc.Component {
             this._fightRoleBaseArr.forEach(v => {
                 v.roleDataInfo && v.endFight();
             })
-            this.refreshBaseArr();
+            this.refreshBaseArr(isStart);
             cc.tween(this.moveNode)
                 .by(0.5, { y: 120 })
                 .call(() => {

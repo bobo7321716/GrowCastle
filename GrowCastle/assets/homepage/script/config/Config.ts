@@ -8,7 +8,7 @@
  */
 import { HeroConfigMgr } from "./HeroConfig";
 import { HeroattributeConfigMgr } from "./HeroattributeConfig";
-import ArmamentConfig, { ArmamentConfigMgr } from "./ArmamentConfig";
+import { ArmamentConfigMgr } from "./ArmamentConfig";
 import { ItemConfigMgr } from "./ItemConfig";
 import { SkillConfigMgr } from "./SkillConfig";
 import { AttributeConfigMgr } from "./AttributeConfig";
@@ -35,7 +35,7 @@ import { BulletConfigMgr } from "./BulletConfig";
 import { GoldmineConfigMgr } from "./GoldmineConfig";
 import { HomeAttributeConfigMgr } from "./HomeAttributeConfig";
 import { HomebuildConfigMgr } from "./HomebuildConfig";
-import MpRecoverConfigMgr from "./MpRecoverConfigMgr";
+import { MpRecoverConfigMgr } from "./MpRecoverConfig";
 
 export const Config = {
 
@@ -68,5 +68,5 @@ export const Config = {
     RedPointConfig: RedPointConfigMgr,
     GuideConfig: GuideConfigMgr,
     StoryConfig: StoryConfigMgr,
-    MpRecoverConfig:MpRecoverConfigMgr
+    MpRecoverConfig: MpRecoverConfigMgr
 }

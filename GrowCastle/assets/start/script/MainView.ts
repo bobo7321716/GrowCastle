@@ -258,7 +258,7 @@ export default class MainView extends UiBase {
     castelUpgradeClick() {
         PlayerData.ins.upgradeCastle(() => {
             AudioManager.ins.playEffect(SoundPath.level_up);
-            FightMap.ins.playerBase.refreshPlayerInfo();
+            FightMap.ins.playerBase.refreshPlayerInfo(false);
             FightMap.ins.playerBase.playEffectAnim(0, true);
         }, () => {
             AudioManager.ins.playClickAudio();
