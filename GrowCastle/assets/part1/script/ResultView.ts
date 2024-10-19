@@ -177,6 +177,6 @@ export default class ResultView extends UiBase {
 
     doubleClick() {
         PlayerData.ins.changeItemNum(Global.ItemId.Coin, this.coinNum);
-        UIManager.ins.closeView();
+        this.closeClick();
     }
 }
