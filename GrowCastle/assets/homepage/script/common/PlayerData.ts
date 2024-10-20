@@ -9,6 +9,7 @@ import { FunctionlockConfigMgr } from "../config/FunctionlockConfig";
 import HeroConfig, { HeroConfigMgr } from "../config/HeroConfig";
 import { HeroattributeConfigMgr } from "../config/HeroattributeConfig";
 import { ItemConfigMgr } from "../config/ItemConfig";
+import { MpRecoverConfigMgr } from "../config/MpRecoverConfig";
 import OnlinerewardConfig from "../config/OnlinerewardConfig";
 import { PlayerLevelConfigMgr } from "../config/PlayerLevelConfig";
 import { SignConfigMgr } from "../config/SignConfig";
@@ -503,6 +504,22 @@ export class PlayerData {
         cb && cb();
         this.saveData();
         TaskManager.ins.checkRefreshTaskProgress(Global.TaskType.UpgradeArcher);
+    }
+
+    /**升级法力恢复等级 */
+    upgradeMpRecover(sucCb: () => void, failCb: () => void = null) {
+        let configs = DataManager.ins.get(MpRecoverConfigMgr);
+        if (this.mpRecoverLv >= configs.datas.length) return TipManager.ins.showTip("已满级");
+        let config = configs.getDataById(this.mpRecoverLv);
+        if (!config) return;
+        let isEnought = this.checkCostIsEnough(config.cost[0], config.cost[1], true, true, true);
+        if (!isEnought) {
+            failCb && failCb();
+            return;
+        }
+        this.mpRecoverLv++;
+        sucCb && sucCb();
+        this.saveData();
     }
 
     /**升级金矿 */

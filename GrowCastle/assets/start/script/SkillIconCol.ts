@@ -22,6 +22,7 @@ export default class SkillIconCol extends cc.Component {
     initIcon() {
         this.iconArr.forEach(v => {
             v.init();
+            v.refresh(0);
         })
     }
 

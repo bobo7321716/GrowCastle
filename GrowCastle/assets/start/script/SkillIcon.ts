@@ -44,7 +44,7 @@ export default class SkillIcon extends cc.Component {
 
     refresh(mp: number) {
         if (!this.skillConfig) return;
-        this.isReady = mp <= this.skillConfig.mp;
+        this.isReady = mp >= this.skillConfig.mp;
         this.iconSpr.setMaterial(0, this.iconMater[this.isReady ? 0 : 1]);
     }
 

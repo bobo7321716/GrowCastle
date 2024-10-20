@@ -15,10 +15,13 @@ import { AbManager } from "../../homepage/script/common/asssetsBundle/AbManager"
 import { ArcherUpgradeConfigMgr } from "../../homepage/script/config/ArcherUpgradeConfig";
 import { CastleConfigMgr } from "../../homepage/script/config/CastleConfig";
 import { FunctionlockConfigMgr } from "../../homepage/script/config/FunctionlockConfig";
+import { MpRecoverConfigMgr } from "../../homepage/script/config/MpRecoverConfig";
+import { WaveConfigMgr } from "../../homepage/script/config/WaveConfig";
 import DataManager from "../../homepage/script/manager/DataManager";
 import HomeManager from "../../homepage/script/manager/HomeManager";
 import RedPointManager from "../../homepage/script/manager/RedPointManager";
 import SceneEventManager from "../../homepage/script/manager/SceneEventManager";
+import RewardView from "../../part1/script/RewardView";
 import UnlockFuncView from "../../part1/script/UnlockFuncView";
 import Homestead from "../../part1/script/homestead/Homestead";
 import TerritoryLvUI from "../../part1/script/territory/TerritoryLvUI";
@@ -91,9 +94,25 @@ export default class MainView extends UiBase {
     @property(cc.Label)
     coinUpgradeLv: cc.Label = null;
 
+    @property(cc.Label)
+    mpRecoverLab: cc.Label = null;
+
+    @property(cc.Label)
+    costLab: cc.Label = null;
+
+    @property(cc.Sprite)
+    mpRecoverCostSpr: cc.Sprite = null;
+
+    @property(BtnCol)
+    recoverBtnCol: BtnCol = null;
+
+    @property(cc.Label)
+    addCoinLab: cc.Label = null;
+
     private fightMap: FightMap = null;
     private homeMap: Homestead = null;
     private isOnMoveAnim: boolean = false;
+    private curAddCoinNum: number = 0;
 
     protected start(): void {
         WorldEventManager.addListener(Global.EventEnum.FightState, this.refreshFightState, this);
@@ -112,6 +131,7 @@ export default class MainView extends UiBase {
         this.fightBtnNode.x = -70;
         this.btnNode.stopAllActions();
         this.btnNode.y = 208;
+        this.curAddCoinNum = 0;
 
         this.isOnMoveAnim = false;
         this.refreshUpgrade();
@@ -197,6 +217,34 @@ export default class MainView extends UiBase {
             }
         }
         this.coinUpgradeLv.string = PlayerData.ins.coinUpgradeLv + "";
+
+        let recoverConfig = DataManager.ins.get(MpRecoverConfigMgr).getDataById(PlayerData.ins.mpRecoverLv);
+        if (recoverConfig) {
+            this.mpRecoverLab.string = "法力恢复:" + recoverConfig.recover + "/s";
+            let isEnought = PlayerData.ins.checkCostIsEnough(recoverConfig.cost[0], recoverConfig.cost[1], false);
+            this.recoverBtnCol.setIsGray(!isEnought);
+            if (recoverConfig.cost == null) {
+                this.costLab.string = "已满级";
+                this.mpRecoverCostSpr.node.active = false;
+            } else {
+                this.mpRecoverCostSpr.node.active = true;
+                this.costLab.string = recoverConfig.cost[1] + "";
+                AbManager.loadBundleRes(BundleName.Assets, "texture/item/" + recoverConfig.cost[0], cc.SpriteFrame).then(spf => {
+                    this.archerCoinSpr.spriteFrame = spf;
+                })
+            }
+        }
+
+        let _wave = DataManager.ins.get(WaveConfigMgr).datas.find(val => val.wave == PlayerData.ins.wave);
+        let _num = 100;
+        if (_wave != null) {
+            _num = 0;
+            _wave.enemy.forEach(val => {
+                _num += val[1] * val[2];
+            })
+        }
+        this.addCoinLab.string = _num.toString();
+        this.curAddCoinNum = _num;
     }
 
     refreshFightState(isStart: boolean) {
@@ -276,6 +324,23 @@ export default class MainView extends UiBase {
             AudioManager.ins.playClickAudio();
         });
         this.refreshUpgrade();
+    }
+
+    //升级法力恢复
+    mpRecoverUpgradeClick() {
+        PlayerData.ins.upgradeMpRecover(() => {
+            AudioManager.ins.playEffect(SoundPath.level_up);
+        }, () => {
+            AudioManager.ins.playClickAudio();
+        })
+        this.refreshUpgrade();
+    }
+
+    addCoinClick() {
+        let reward = { id: Global.ItemId.Coin, num: this.curAddCoinNum };
+        UIManager.ins.openView(UiPath.RewardView).then((view: RewardView) => {
+            view.init([reward]);
+        })
     }
 
     //战斗

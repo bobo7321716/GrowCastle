@@ -109,7 +109,8 @@ export default class FightMap extends cc.Component {
 
     startFight(waveConfig: WaveConfig) {
         this.waveConfig = waveConfig;
-        this.refreshFightState(true)
+        this.refreshFightState(true);
+        SkillIconCol.ins.initIcon();
     }
 
     private playerDeath() {

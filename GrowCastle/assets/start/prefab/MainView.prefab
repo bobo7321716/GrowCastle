@@ -5244,7 +5244,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "castleLvLab",
+    "_name": "recoverLab",
     "_objFlags": 0,
     "_parent": {
       "__id__": 145
@@ -5553,7 +5553,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "castelCostLab",
+    "_name": "costLab",
     "_objFlags": 0,
     "_parent": {
       "__id__": 150
@@ -6047,7 +6047,7 @@
     },
     "component": "",
     "_componentId": "97822ChxZpLg763QcfO4n6/",
-    "handler": "castelUpgradeClick",
+    "handler": "mpRecoverUpgradeClick",
     "customEventData": ""
   },
   {
@@ -6119,7 +6119,9 @@
         "__uuid__": "3a7bb79f-32fd-422e-ada2-96f518fed422"
       }
     ],
-    "labNode": null,
+    "labNode": {
+      "__id__": 154
+    },
     "redPointNode": null,
     "_id": ""
   },
@@ -8513,7 +8515,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "archerCostLab",
+    "_name": "addCoinLab",
     "_objFlags": 0,
     "_parent": {
       "__id__": 242
@@ -9007,7 +9009,7 @@
     },
     "component": "",
     "_componentId": "97822ChxZpLg763QcfO4n6/",
-    "handler": "archerUpgradeClick",
+    "handler": "addCoinClick",
     "customEventData": ""
   },
   {
@@ -9079,7 +9081,9 @@
         "__uuid__": "3a7bb79f-32fd-422e-ada2-96f518fed422"
       }
     ],
-    "labNode": null,
+    "labNode": {
+      "__id__": 246
+    },
     "redPointNode": null,
     "_id": ""
   },
@@ -29750,6 +29754,21 @@
     },
     "coinUpgradeLv": {
       "__id__": 91
+    },
+    "mpRecoverLab": {
+      "__id__": 147
+    },
+    "costLab": {
+      "__id__": 155
+    },
+    "mpRecoverCostSpr": {
+      "__id__": 152
+    },
+    "recoverBtnCol": {
+      "__id__": 172
+    },
+    "addCoinLab": {
+      "__id__": 247
     },
     "_id": ""
   },
