@@ -48,6 +48,15 @@ export default class HeroPos extends cc.Component {
 
     protected onLoad(): void {
         WorldEventManager.addListener(Global.EventEnum.RefreshPlayerInfo, this.refreshCost, this);
+        WorldEventManager.addListener(Global.EventEnum.FightState, (isStart: boolean) => {
+            if (isStart) {
+                this.btnCol.node.active = false;
+            } else {
+                setTimeout(() => {
+                    this.btnCol.node.active = true;
+                }, 500);
+            }
+        }, this);
     }
 
     init(heroId: number, index: number) {

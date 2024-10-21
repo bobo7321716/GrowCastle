@@ -78,6 +78,7 @@ export default class FightManager extends cc.Component {
         wave = 0;
         this.curWave = wave;
         this.startWave();
+        FightMap.ins.startFight(this.waveConfig);
     }
 
     startWave() {
@@ -99,7 +100,7 @@ export default class FightManager extends cc.Component {
             console.warn("未找到关卡数据");
             return;
         }
-        FightMap.ins.startFight(this.waveConfig);
+
         EnemyManager.ins.fightStart(this.waveConfig);
         this._isOnFight = true;
         appContext.isOnFight = true;

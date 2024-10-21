@@ -95,7 +95,7 @@ export abstract class HeroBase extends RoleBase {
                     }
                     tarObj.target.hit({ atk: tarObj.hitNum, atker: this });
                     if (this.roleInfo.roleId == 1005) {
-                        tarObj.target.addEffect([112, 1, 1, 0, -50], Global.SkillType.Skill5, this);
+                        tarObj.target.addEffect([112, 1, 1, 0, -30], Global.SkillType.Skill5, this);
                     }
                 })
             }, () => {
