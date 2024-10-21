@@ -197,7 +197,8 @@ export default class EnemyManager extends cc.Component {
                                     if (this._enemyBaseMap.size <= 0) {
                                         if (this.curWave >= this.totalWave) {
                                             if (this.waveConfig.wavetype != Global.FightType.Territory) {
-                                                FightManager.ins.endFight(true, this.totalDropCoin);
+                                                // FightManager.ins.endFight(true, this.totalDropCoin);
+                                                FightManager.ins.startWave();
                                             }
                                         }
                                     }

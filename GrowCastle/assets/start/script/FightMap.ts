@@ -140,7 +140,7 @@ export default class FightMap extends cc.Component {
         })
         if (isStart) {
             cc.tween(this.moveNode)
-                .by(0.5, { y: -120 })
+                .to(0.5, { y: -120 })
                 .call(() => {
                     UIManager.ins.isSceneBlockInput = false;
                     this.isOnMoveAnim = false;
@@ -169,7 +169,7 @@ export default class FightMap extends cc.Component {
             })
             this.refreshBaseArr(isStart);
             cc.tween(this.moveNode)
-                .by(0.5, { y: 120 })
+                .to(0.5, { y: 0 })
                 .call(() => {
                     UIManager.ins.isSceneBlockInput = false;
                     this.isOnMoveAnim = false;

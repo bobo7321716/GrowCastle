@@ -41,6 +41,10 @@ export default class FightManager extends cc.Component {
 
     public fightTime: number = 0;
 
+    private curWave: number = 1;
+
+    private curType: Global.FightType = Global.FightType.Normal;
+
     protected onLoad(): void {
         FightManager.ins = this;
     }
@@ -70,19 +74,27 @@ export default class FightManager extends cc.Component {
     /**开始战斗 */
     startFight(type: Global.FightType, wave: number) {
         if (this._isOnFight) return;
+        this.curType = type;
+        wave = 0;
+        this.curWave = wave;
+        this.startWave();
+    }
+
+    startWave() {
+        this.curWave++;
         appContext.topCameraNode.active = false;
         WorldEventManager.triggerEvent(Global.EventEnum.FightState, true);
-        this._fightType = type;
+        this._fightType = this.curType;
         let mgr = DataManager.ins.get(WaveConfigMgr)
         let arr = [];
         mgr.datas.forEach(v => {
-            if (v.wavetype == type) {
+            if (v.wavetype == this.curType) {
                 arr.push(v);
             }
         })
         let maxWave = arr[arr.length - 1].wave;
-        wave = Math.min(maxWave, wave);
-        this.waveConfig = mgr.datas.find(v => v.wavetype == type && v.wave == wave);
+        this.curWave = Math.min(maxWave, this.curWave);
+        this.waveConfig = mgr.datas.find(v => v.wavetype == this.curType && v.wave == this.curWave);
         if (!this.waveConfig) {
             console.warn("未找到关卡数据");
             return;
