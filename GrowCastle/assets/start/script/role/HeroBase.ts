@@ -66,7 +66,7 @@ export abstract class HeroBase extends RoleBase {
         this.closeAllEffectAnim();
     }
 
-    atk(...arg) {
+    atk(scale: number = 1) {
         let tarObj = FightManager.ins.getAtkTarget(this);
         if (tarObj) {
             this.playAnim(Global.RoleAnimEnum.Atk, false, () => {
@@ -94,10 +94,13 @@ export abstract class HeroBase extends RoleBase {
                         return;
                     }
                     tarObj.target.hit({ atk: tarObj.hitNum, atker: this });
+                    if (this.roleInfo.roleId == 1005) {
+                        tarObj.target.addEffect([112, 1, 1, 0, -50], Global.SkillType.Skill5, this);
+                    }
                 })
             }, () => {
                 this.playAnim(Global.RoleAnimEnum.Idel, true);
-            })
+            }, scale)
         }
     }
 
@@ -113,19 +116,34 @@ export abstract class HeroBase extends RoleBase {
         }
         this.isOnReleaseSkill = true;
         WorldEventManager.triggerEvent(Global.EventEnum.ReleaseSkill, this.roleInfo.roleId);
-        this.playAnim(Global.RoleAnimEnum.Skill, false, () => {
+        if (this.roleInfo.roleId == 1005) {
             this.skillTimer = 0;
             this.skillProgressCol.setCurNum(0);
-            EffectManager.ins.createSkill(this.skillConfig, this, () => {
-                console.log("释放完毕")
-                this.isOnReleaseSkill = false;
-            }).then(() => {
-                console.log("技能结束")
+            let num = 0;
+            this.schedule(() => {
+                num++;
+                if (num < 5 /**this.skillConfig.parameter[0][3] */) {
+                    this.atk(3);
+                } else {
+                    this.isOnReleaseSkill = false;
+                    this.playAnim(Global.RoleAnimEnum.Idel, true);
+                }
+            }, 0.2, 5)
+        } else {
+            this.playAnim(Global.RoleAnimEnum.Skill, false, () => {
+                this.skillTimer = 0;
+                this.skillProgressCol.setCurNum(0);
+                EffectManager.ins.createSkill(this.skillConfig, this, () => {
+                    console.log("释放完毕")
+                    this.isOnReleaseSkill = false;
+                }).then(() => {
+                    console.log("技能结束")
+                })
+            }, () => {
+                // this.isOnSkillCd = true;
+                this.playAnim(Global.RoleAnimEnum.Idel, true);
             })
-        }, () => {
-            // this.isOnSkillCd = true;
-            this.playAnim(Global.RoleAnimEnum.Idel, true);
-        })
+        }
     }
 
     addEffect(effectParam: number[], skillType: Global.SkillType, releaser: RoleBase): void {

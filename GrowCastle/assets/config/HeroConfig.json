@@ -1,1 +1,92 @@
-[{"id":1001,"name":"刘备","rarity":0,"locktype":1,"lockparameter":0,"currency":1001,"price":0},{"id":1002,"name":"关羽","rarity":0,"locktype":1,"lockparameter":0,"currency":1001,"price":0},{"id":1003,"name":"张飞","rarity":0,"locktype":1,"lockparameter":0,"currency":1001,"price":0},{"id":1006,"name":"刘禅","rarity":1,"locktype":1,"lockparameter":10,"currency":1001,"price":1000},{"id":1005,"name":"赵云","rarity":2,"locktype":1,"lockparameter":30,"currency":1001,"price":2000},{"id":1007,"name":"黄忠","rarity":2,"locktype":1,"lockparameter":30,"currency":1001,"price":2000},{"id":1004,"name":"诸葛亮","rarity":3,"locktype":2,"lockparameter":7,"currency":1001,"price":0},{"id":1008,"name":"孙尚香","rarity":3,"locktype":1,"lockparameter":50,"currency":1001,"price":6000},{"id":1009,"name":"马超","rarity":3,"locktype":1,"lockparameter":50,"currency":1001,"price":6000},{"id":1010,"name":"貂蝉","rarity":3,"locktype":1,"lockparameter":80,"currency":1002,"price":100}]
+[
+    {
+        "id": 1001,
+        "name": "刘备",
+        "rarity": 0,
+        "locktype": 1,
+        "lockparameter": 0,
+        "currency": 1001,
+        "price": 0
+    },
+    {
+        "id": 1002,
+        "name": "关羽",
+        "rarity": 0,
+        "locktype": 1,
+        "lockparameter": 0,
+        "currency": 1001,
+        "price": 0
+    },
+    {
+        "id": 1003,
+        "name": "张飞",
+        "rarity": 0,
+        "locktype": 1,
+        "lockparameter": 0,
+        "currency": 1001,
+        "price": 0
+    },
+    {
+        "id": 1006,
+        "name": "刘禅",
+        "rarity": 1,
+        "locktype": 1,
+        "lockparameter": 10,
+        "currency": 1001,
+        "price": 1000
+    },
+    {
+        "id": 1005,
+        "name": "赵云",
+        "rarity": 2,
+        "locktype": 1,
+        "lockparameter": 0,
+        "currency": 1001,
+        "price": 2000
+    },
+    {
+        "id": 1007,
+        "name": "黄忠",
+        "rarity": 2,
+        "locktype": 1,
+        "lockparameter": 0,
+        "currency": 1001,
+        "price": 2000
+    },
+    {
+        "id": 1004,
+        "name": "诸葛亮",
+        "rarity": 3,
+        "locktype": 2,
+        "lockparameter": 7,
+        "currency": 1001,
+        "price": 0
+    },
+    {
+        "id": 1008,
+        "name": "孙尚香",
+        "rarity": 3,
+        "locktype": 1,
+        "lockparameter": 50,
+        "currency": 1001,
+        "price": 6000
+    },
+    {
+        "id": 1009,
+        "name": "马超",
+        "rarity": 3,
+        "locktype": 1,
+        "lockparameter": 50,
+        "currency": 1001,
+        "price": 6000
+    },
+    {
+        "id": 1010,
+        "name": "貂蝉",
+        "rarity": 3,
+        "locktype": 1,
+        "lockparameter": 80,
+        "currency": 1002,
+        "price": 100
+    }
+]

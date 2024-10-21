@@ -129,7 +129,7 @@ export abstract class RoleBase extends cc.Component implements IRole {
     abstract atk(...arg);
     abstract skill(...arg: any[]);
 
-    playAnim(animEnum: Global.RoleAnimEnum, isLoop: boolean = false, atkEventCb: () => void = null, completeCb: () => void = null): Promise<any> {
+    playAnim(animEnum: Global.RoleAnimEnum, isLoop: boolean = false, atkEventCb: () => void = null, completeCb: () => void = null, scale: number = 1): Promise<any> {
         this.curAnimEnum = animEnum;
         if (!this.hasAnimArr.includes(animEnum)) {
             completeCb && completeCb();
@@ -147,7 +147,7 @@ export abstract class RoleBase extends cc.Component implements IRole {
                     atkSpeed = HomeManager.ins.getHomeTotalValue(Global.ArmamentAttribute.英雄攻速, atkSpeed);
                     break;
             }
-            timeScale = DataManager.ins.get(ConstConfigMgr).getDataById(3).value / this.roleDataInfo.atkSpeed;
+            timeScale = DataManager.ins.get(ConstConfigMgr).getDataById(3).value / this.roleDataInfo.atkSpeed * scale;
         }
         return this.animCol.playAnim(animEnum, this.roleInfo.roleType, this.animId, timeScale, isLoop, atkEventCb, completeCb);
     }
