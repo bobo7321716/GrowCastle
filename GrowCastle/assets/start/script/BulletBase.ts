@@ -15,15 +15,15 @@ export default class BulletBase extends EffectBase {
     @property(cc.Sprite)
     spr: cc.Sprite = null;
 
-    private sPos: cc.Vec2 = null;
-    private ePos: cc.Vec2 = null;
-    private resolve: (value: EffectBase) => void = null;
-    private speed: number = 0;
-    private isEnd: boolean = false;
-    private dir: cc.Vec2 = null;
-    private timer: number = 0;
-    private dis: number = 0;
-    private costTime: number = 0;
+    protected sPos: cc.Vec2 = null;
+    protected ePos: cc.Vec2 = null;
+    protected resolve: (value: EffectBase) => void = null;
+    protected speed: number = 0;
+    protected isEnd: boolean = false;
+    protected dir: cc.Vec2 = null;
+    protected timer: number = 0;
+    protected dis: number = 0;
+    protected costTime: number = 0;
 
     init(id: number, sPos: cc.Vec2, ePos: cc.Vec2, moveType: Global.BulletMoveType = Global.BulletMoveType.StraightLine) {
         this.isEnd = true;

@@ -53,7 +53,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        -165.974,
         0,
         0,
         0,
@@ -104,8 +104,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 75,
-      "height": 76
+      "width": 359.0000305175781,
+      "height": 366
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -117,14 +117,14 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        134,
         0,
         0,
         0,
         0,
         1,
-        1,
-        1,
+        0.2,
+        0.2,
         1
       ]
     },
@@ -142,7 +142,7 @@
     "_id": ""
   },
   {
-    "__type__": "cc.Sprite",
+    "__type__": "sp.Skeleton",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -151,26 +151,36 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+        "__uuid__": "7afd064b-113f-480e-b793-8817d19f63c3"
       }
     ],
-    "_srcBlendFactor": 770,
-    "_dstBlendFactor": 771,
-    "_spriteFrame": {
-      "__uuid__": "9f1b404e-afd0-4053-a177-7939560886de"
+    "paused": false,
+    "defaultSkin": "default",
+    "defaultAnimation": "feidao",
+    "_preCacheMode": 0,
+    "_cacheMode": 0,
+    "loop": true,
+    "premultipliedAlpha": false,
+    "timeScale": 1,
+    "_accTime": 0,
+    "_playCount": 0,
+    "_frameCache": null,
+    "_curFrame": null,
+    "_skeletonCache": null,
+    "_animationName": "feidao",
+    "_animationQueue": [],
+    "_headAniInfo": null,
+    "_playTimes": 0,
+    "_isAniComplete": true,
+    "_N$skeletonData": {
+      "__uuid__": "b4477254-e239-4255-ad1d-ca862998418e"
     },
-    "_type": 0,
-    "_sizeMode": 1,
-    "_fillType": 0,
-    "_fillCenter": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_fillStart": 0,
-    "_fillRange": 0,
-    "_isTrimmedMode": true,
-    "_atlas": null,
+    "_N$_defaultCacheMode": 0,
+    "_N$debugSlots": false,
+    "_N$debugBones": false,
+    "_N$debugMesh": false,
+    "_N$useTint": false,
+    "_N$enableBatch": false,
     "_id": ""
   },
   {
@@ -185,16 +195,14 @@
     "sync": false
   },
   {
-    "__type__": "15b09sTuf1BabOeF1DXQzDa",
+    "__type__": "4b7640YPFNIJprdvHi/BNR7",
     "_name": "",
     "_objFlags": 0,
     "node": {
       "__id__": 1
     },
     "_enabled": true,
-    "spr": {
-      "__id__": 3
-    },
+    "spr": null,
     "_id": ""
   },
   {
