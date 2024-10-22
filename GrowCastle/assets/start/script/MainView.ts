@@ -358,7 +358,7 @@ export default class MainView extends UiBase {
     //撤退
     exitClick() {
         AudioManager.ins.stopAllEffect();
-        FightManager.ins.endFight(false, 0, true);
+        FightManager.ins.endFight(false, true);
     }
 
     //科技

@@ -10,6 +10,7 @@ import { ConstConfigMgr } from "../../homepage/script/config/ConstConfig";
 import { EnemyConfigMgr } from "../../homepage/script/config/EnemyConfig";
 import DataManager from "../../homepage/script/manager/DataManager";
 import GuideManager from "../../homepage/script/manager/GuideManager";
+import EnemyManager from "../../start/script/EnemyManager";
 import FightManager from "../../start/script/FightManager";
 import FightMap from "../../start/script/FightMap";
 import RewardView from "./RewardView";
@@ -51,9 +52,8 @@ export default class ResultView extends UiBase {
     private fightType: Global.FightType = Global.FightType.Normal;
     private cb: (isRevive: boolean) => void = null;
     private isRevive: boolean = false;
-    private coinNum: number = 0;
 
-    init(isSuc: boolean, coinNum: number, fightType: Global.FightType, cb: (isRevive: boolean) => void, isGiveUp: boolean = false) {
+    init(isSuc: boolean, fightType: Global.FightType, cb: (isRevive: boolean) => void, isGiveUp: boolean = false) {
         isSuc = true;
         this.isSuc = isSuc;
         this.fightType = fightType;
@@ -61,9 +61,8 @@ export default class ResultView extends UiBase {
         this.isRevive = false;
         this.sucNode.active = isSuc;
         this.failNode.active = !isSuc;
-        this.numLab.string = coinNum + "";
+        this.numLab.string = EnemyManager.ins.totalDropCoin + "";
         this.closeNode.active = false;
-        this.coinNum = coinNum;
 
         this.sucAnim1.stopAllActions();
         this.sucAnim1.scale = 0.1;
@@ -176,7 +175,7 @@ export default class ResultView extends UiBase {
     }
 
     doubleClick() {
-        PlayerData.ins.changeItemNum(Global.ItemId.Coin, this.coinNum);
+        PlayerData.ins.changeItemNum(Global.ItemId.Coin, EnemyManager.ins.totalDropCoin);
         this.closeClick();
     }
 }

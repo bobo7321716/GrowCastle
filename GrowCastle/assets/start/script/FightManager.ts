@@ -109,7 +109,7 @@ export default class FightManager extends cc.Component {
     }
 
     /**战斗结束 */
-    endFight(isSuc: boolean, totalDropCoin: number = 0, isGiveUp: boolean = false) {
+    endFight(isSuc: boolean, isGiveUp: boolean = false) {
         if (!this._isOnFight) return;
         this._isOnFight = false;
         appContext.isOnFight = false;
@@ -119,7 +119,7 @@ export default class FightManager extends cc.Component {
         let wave = this.waveConfig.wave;
         let fightType = this.fightType;
         UIManager.ins.openView(UiPath.ResultView, true, true).then((view: ResultView) => {
-            view.init(isSuc, totalDropCoin, fightType, (isRevive: boolean) => {
+            view.init(isSuc, fightType, (isRevive: boolean) => {
                 this._isPause = false;
                 if (isRevive) {
                     //复活

@@ -116,7 +116,7 @@ export default class EnemyManager extends cc.Component {
     /**是否弹出引导 */
     private isShowGuide: boolean = false;
     /**当前波次掉落铜币总数 */
-    private totalDropCoin: number = 0;
+    public totalDropCoin: number = 0;
 
     public static ins: EnemyManager = null;
     protected onLoad(): void {
