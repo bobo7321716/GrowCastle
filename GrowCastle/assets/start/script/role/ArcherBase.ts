@@ -37,7 +37,9 @@ export abstract class ArcherBase extends RoleBase {
         this.effectArr = [];
         this.isDeath = false;
         this.closeAllEffectAnim();
-        return this.playAnim(Global.RoleAnimEnum.Atk, false);
+        return this.playAnim(Global.RoleAnimEnum.Atk, false, null, () => {
+            this.playAnim(Global.RoleAnimEnum.Idel, true);
+        });
     }
 
     reset() {
