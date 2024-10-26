@@ -35,6 +35,7 @@ export abstract class PlayerBase extends RoleBase {
     private hpRecoverTimer: number = 0;
     private hpRecover: number = 0;
     private maxMp: number = 0;
+    private curHp: number = 0;
 
     init(roleInfo: { roleType: Global.RoleType, roleId: number }, deathCb: (roleBase: RoleBase, atker: RoleBase) => void, isStart: boolean = false) {
         this.roleInfo = roleInfo;
@@ -63,7 +64,9 @@ export abstract class PlayerBase extends RoleBase {
         this.castleConfig = DataManager.ins.get(CastleConfigMgr).getDataById(PlayerData.ins.carstelLv);
 
         this.baseRole = this.initBaseRole(this.castleConfig);
+        this.curHp = isStart && this.roleDataInfo ? this.roleDataInfo.hp : this.baseRole.hp;
         this.roleDataInfo = RoleBaseData.initBaseData(this.castleConfig);
+        // this.roleDataInfo.hp = isStart ? this.roleDataInfo.hp : curHp;
         this.baseRole.hp = HomeManager.ins.getHomeTotalValue(Global.ArmamentAttribute.城墙耐久度, this.baseRole.hp);
         //检查是否上阵玄武石像
         let param1 = PlayerData.ins.getBuildSkillParam(Global.SkillType.Skill21);
@@ -78,14 +81,15 @@ export abstract class PlayerBase extends RoleBase {
         }
         this.roleDataInfo.hp = this.baseRole.hp;
         this.maxMp = this.baseRole.mp;
-        this.roleDataInfo.mp = isStart ? 0 : this.maxMp;
+        // this.roleDataInfo.mp = this.maxMp;
         // this.roleDataInfo.mp_recover = HomeManager.ins.getHomeTotalValue(Global.ArmamentAttribute.法力恢复每5秒, this.castleConfig.mprecover);
         this.roleDataInfo.mp_recover = DataManager.ins.get(MpRecoverConfigMgr).getDataById(PlayerData.ins.mpRecoverLv).recover;
         this.roleDataInfo.hp_recover = HomeManager.ins.getHomeTotalValue(Global.ArmamentAttribute.城墙耐久度每5秒, 0);
 
-        this.progress.init(this.roleDataInfo.hp);
+        this.progress.init(this.baseRole.hp);
+        // this.progress.setCurNum(this.roleDataInfo.hp);
         this.mpProgress.init(this.maxMp);
-        isStart && this.mpProgress.setCurNum(0);
+        // isStart && this.mpProgress.setCurNum(0);
 
         this.sprNode.children.forEach(v => {
             let spr = v.getComponent(cc.Sprite);
@@ -100,6 +104,18 @@ export abstract class PlayerBase extends RoleBase {
                 })
             }
         })
+    }
+
+    fightStart() {
+        this.mpProgress.init(this.maxMp);
+        this.roleDataInfo.mp = 0;
+        this.mpProgress.setCurNum(this.roleDataInfo.mp);
+    }
+
+    fightEnd() {
+        this.progress.init(this.baseRole.hp);
+        this.progress.setCurNum(this.curHp);
+        this.mpProgress.init(this.maxMp);
     }
 
     death(atker: RoleBase) {
