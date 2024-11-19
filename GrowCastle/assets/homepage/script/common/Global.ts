@@ -199,6 +199,8 @@ export namespace Global {
         Skill24 = 24,
         /**诸葛连弩 */
         Skill25 = 25,
+        /**赵云技能 */
+        Skill26 = 26
     }
 
     export enum dataType {
