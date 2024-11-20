@@ -1,1 +1,703 @@
-[{"id":1,"upgradeCost":[1001,25]},{"id":2,"upgradeCost":[1001,50]},{"id":3,"upgradeCost":[1001,75]},{"id":4,"upgradeCost":[1001,100]},{"id":5,"upgradeCost":[1001,125]},{"id":6,"upgradeCost":[1001,150]},{"id":7,"upgradeCost":[1001,175]},{"id":8,"upgradeCost":[1001,200]},{"id":9,"upgradeCost":[1001,225]},{"id":10,"upgradeCost":[1001,250]},{"id":11,"upgradeCost":[1001,275]},{"id":12,"upgradeCost":[1001,300]},{"id":13,"upgradeCost":[1001,325]},{"id":14,"upgradeCost":[1001,350]},{"id":15,"upgradeCost":[1001,750]},{"id":16,"upgradeCost":[1001,800]},{"id":17,"upgradeCost":[1001,850]},{"id":18,"upgradeCost":[1001,900]},{"id":19,"upgradeCost":[1001,950]},{"id":20,"upgradeCost":[1001,1000]},{"id":21,"upgradeCost":[1001,1050]},{"id":22,"upgradeCost":[1001,1100]},{"id":23,"upgradeCost":[1001,1150]},{"id":24,"upgradeCost":[1001,1200]},{"id":25,"upgradeCost":[1001,1250]},{"id":26,"upgradeCost":[1001,1300]},{"id":27,"upgradeCost":[1001,1350]},{"id":28,"upgradeCost":[1001,1400]},{"id":29,"upgradeCost":[1001,1450]},{"id":30,"upgradeCost":[1001,2250]},{"id":31,"upgradeCost":[1001,2325]},{"id":32,"upgradeCost":[1001,2400]},{"id":33,"upgradeCost":[1001,2475]},{"id":34,"upgradeCost":[1001,2550]},{"id":35,"upgradeCost":[1001,2625]},{"id":36,"upgradeCost":[1001,2700]},{"id":37,"upgradeCost":[1001,2775]},{"id":38,"upgradeCost":[1001,2850]},{"id":39,"upgradeCost":[1001,2925]},{"id":40,"upgradeCost":[1001,3000]},{"id":41,"upgradeCost":[1001,3075]},{"id":42,"upgradeCost":[1001,3150]},{"id":43,"upgradeCost":[1001,3225]},{"id":44,"upgradeCost":[1001,3300]},{"id":45,"upgradeCost":[1001,4500]},{"id":46,"upgradeCost":[1001,4600]},{"id":47,"upgradeCost":[1001,4700]},{"id":48,"upgradeCost":[1001,4800]},{"id":49,"upgradeCost":[1001,4900]},{"id":50,"upgradeCost":[1001,5000]},{"id":51,"upgradeCost":[1001,5100]},{"id":52,"upgradeCost":[1001,5200]},{"id":53,"upgradeCost":[1001,5300]},{"id":54,"upgradeCost":[1001,5400]},{"id":55,"upgradeCost":[1001,5500]},{"id":56,"upgradeCost":[1001,5600]},{"id":57,"upgradeCost":[1001,5700]},{"id":58,"upgradeCost":[1001,5800]},{"id":59,"upgradeCost":[1001,5900]},{"id":60,"upgradeCost":[1001,7500]},{"id":61,"upgradeCost":[1001,7625]},{"id":62,"upgradeCost":[1001,7750]},{"id":63,"upgradeCost":[1001,7875]},{"id":64,"upgradeCost":[1001,8000]},{"id":65,"upgradeCost":[1001,8125]},{"id":66,"upgradeCost":[1001,8250]},{"id":67,"upgradeCost":[1001,8375]},{"id":68,"upgradeCost":[1001,8500]},{"id":69,"upgradeCost":[1001,8625]},{"id":70,"upgradeCost":[1001,8750]},{"id":71,"upgradeCost":[1001,8875]},{"id":72,"upgradeCost":[1001,9000]},{"id":73,"upgradeCost":[1001,9125]},{"id":74,"upgradeCost":[1001,9250]},{"id":75,"upgradeCost":[1001,11250]},{"id":76,"upgradeCost":[1001,11400]},{"id":77,"upgradeCost":[1001,11550]},{"id":78,"upgradeCost":[1001,11700]},{"id":79,"upgradeCost":[1001,11850]},{"id":80,"upgradeCost":[1001,12000]},{"id":81,"upgradeCost":[1001,12150]},{"id":82,"upgradeCost":[1001,12300]},{"id":83,"upgradeCost":[1001,12450]},{"id":84,"upgradeCost":[1001,12600]},{"id":85,"upgradeCost":[1001,12750]},{"id":86,"upgradeCost":[1001,12900]},{"id":87,"upgradeCost":[1001,13050]},{"id":88,"upgradeCost":[1001,13200]},{"id":89,"upgradeCost":[1001,13350]},{"id":90,"upgradeCost":[1001,15750]},{"id":91,"upgradeCost":[1001,15925]},{"id":92,"upgradeCost":[1001,16100]},{"id":93,"upgradeCost":[1001,16275]},{"id":94,"upgradeCost":[1001,16450]},{"id":95,"upgradeCost":[1001,16625]},{"id":96,"upgradeCost":[1001,16800]},{"id":97,"upgradeCost":[1001,16975]},{"id":98,"upgradeCost":[1001,17150]},{"id":99,"upgradeCost":[1001,17325]},{"id":100,"upgradeCost":null},{"id":null,"upgradeCost":null}]
+[
+    {
+        "id": 1,
+        "upgradeCost": [
+            1001,
+            25
+        ]
+    },
+    {
+        "id": 2,
+        "upgradeCost": [
+            1001,
+            50
+        ]
+    },
+    {
+        "id": 3,
+        "upgradeCost": [
+            1001,
+            100
+        ]
+    },
+    {
+        "id": 4,
+        "upgradeCost": [
+            1001,
+            200
+        ]
+    },
+    {
+        "id": 5,
+        "upgradeCost": [
+            1001,
+            400
+        ]
+    },
+    {
+        "id": 6,
+        "upgradeCost": [
+            1001,
+            800
+        ]
+    },
+    {
+        "id": 7,
+        "upgradeCost": [
+            1001,
+            1600
+        ]
+    },
+    {
+        "id": 8,
+        "upgradeCost": [
+            1001,
+            3200
+        ]
+    },
+    {
+        "id": 9,
+        "upgradeCost": [
+            1001,
+            6400
+        ]
+    },
+    {
+        "id": 10,
+        "upgradeCost": [
+            1001,
+            10000
+        ]
+    },
+    {
+        "id": 11,
+        "upgradeCost": [
+            1001,
+            10000
+        ]
+    },
+    {
+        "id": 12,
+        "upgradeCost": [
+            1001,
+            10000
+        ]
+    },
+    {
+        "id": 13,
+        "upgradeCost": [
+            1001,
+            325
+        ]
+    },
+    {
+        "id": 14,
+        "upgradeCost": [
+            1001,
+            350
+        ]
+    },
+    {
+        "id": 15,
+        "upgradeCost": [
+            1001,
+            750
+        ]
+    },
+    {
+        "id": 16,
+        "upgradeCost": [
+            1001,
+            800
+        ]
+    },
+    {
+        "id": 17,
+        "upgradeCost": [
+            1001,
+            850
+        ]
+    },
+    {
+        "id": 18,
+        "upgradeCost": [
+            1001,
+            900
+        ]
+    },
+    {
+        "id": 19,
+        "upgradeCost": [
+            1001,
+            950
+        ]
+    },
+    {
+        "id": 20,
+        "upgradeCost": [
+            1001,
+            1000
+        ]
+    },
+    {
+        "id": 21,
+        "upgradeCost": [
+            1001,
+            1050
+        ]
+    },
+    {
+        "id": 22,
+        "upgradeCost": [
+            1001,
+            1100
+        ]
+    },
+    {
+        "id": 23,
+        "upgradeCost": [
+            1001,
+            1150
+        ]
+    },
+    {
+        "id": 24,
+        "upgradeCost": [
+            1001,
+            1200
+        ]
+    },
+    {
+        "id": 25,
+        "upgradeCost": [
+            1001,
+            1250
+        ]
+    },
+    {
+        "id": 26,
+        "upgradeCost": [
+            1001,
+            1300
+        ]
+    },
+    {
+        "id": 27,
+        "upgradeCost": [
+            1001,
+            1350
+        ]
+    },
+    {
+        "id": 28,
+        "upgradeCost": [
+            1001,
+            1400
+        ]
+    },
+    {
+        "id": 29,
+        "upgradeCost": [
+            1001,
+            1450
+        ]
+    },
+    {
+        "id": 30,
+        "upgradeCost": [
+            1001,
+            2250
+        ]
+    },
+    {
+        "id": 31,
+        "upgradeCost": [
+            1001,
+            2325
+        ]
+    },
+    {
+        "id": 32,
+        "upgradeCost": [
+            1001,
+            2400
+        ]
+    },
+    {
+        "id": 33,
+        "upgradeCost": [
+            1001,
+            2475
+        ]
+    },
+    {
+        "id": 34,
+        "upgradeCost": [
+            1001,
+            2550
+        ]
+    },
+    {
+        "id": 35,
+        "upgradeCost": [
+            1001,
+            2625
+        ]
+    },
+    {
+        "id": 36,
+        "upgradeCost": [
+            1001,
+            2700
+        ]
+    },
+    {
+        "id": 37,
+        "upgradeCost": [
+            1001,
+            2775
+        ]
+    },
+    {
+        "id": 38,
+        "upgradeCost": [
+            1001,
+            2850
+        ]
+    },
+    {
+        "id": 39,
+        "upgradeCost": [
+            1001,
+            2925
+        ]
+    },
+    {
+        "id": 40,
+        "upgradeCost": [
+            1001,
+            3000
+        ]
+    },
+    {
+        "id": 41,
+        "upgradeCost": [
+            1001,
+            3075
+        ]
+    },
+    {
+        "id": 42,
+        "upgradeCost": [
+            1001,
+            3150
+        ]
+    },
+    {
+        "id": 43,
+        "upgradeCost": [
+            1001,
+            3225
+        ]
+    },
+    {
+        "id": 44,
+        "upgradeCost": [
+            1001,
+            3300
+        ]
+    },
+    {
+        "id": 45,
+        "upgradeCost": [
+            1001,
+            4500
+        ]
+    },
+    {
+        "id": 46,
+        "upgradeCost": [
+            1001,
+            4600
+        ]
+    },
+    {
+        "id": 47,
+        "upgradeCost": [
+            1001,
+            4700
+        ]
+    },
+    {
+        "id": 48,
+        "upgradeCost": [
+            1001,
+            4800
+        ]
+    },
+    {
+        "id": 49,
+        "upgradeCost": [
+            1001,
+            4900
+        ]
+    },
+    {
+        "id": 50,
+        "upgradeCost": [
+            1001,
+            5000
+        ]
+    },
+    {
+        "id": 51,
+        "upgradeCost": [
+            1001,
+            5100
+        ]
+    },
+    {
+        "id": 52,
+        "upgradeCost": [
+            1001,
+            5200
+        ]
+    },
+    {
+        "id": 53,
+        "upgradeCost": [
+            1001,
+            5300
+        ]
+    },
+    {
+        "id": 54,
+        "upgradeCost": [
+            1001,
+            5400
+        ]
+    },
+    {
+        "id": 55,
+        "upgradeCost": [
+            1001,
+            5500
+        ]
+    },
+    {
+        "id": 56,
+        "upgradeCost": [
+            1001,
+            5600
+        ]
+    },
+    {
+        "id": 57,
+        "upgradeCost": [
+            1001,
+            5700
+        ]
+    },
+    {
+        "id": 58,
+        "upgradeCost": [
+            1001,
+            5800
+        ]
+    },
+    {
+        "id": 59,
+        "upgradeCost": [
+            1001,
+            5900
+        ]
+    },
+    {
+        "id": 60,
+        "upgradeCost": [
+            1001,
+            7500
+        ]
+    },
+    {
+        "id": 61,
+        "upgradeCost": [
+            1001,
+            7625
+        ]
+    },
+    {
+        "id": 62,
+        "upgradeCost": [
+            1001,
+            7750
+        ]
+    },
+    {
+        "id": 63,
+        "upgradeCost": [
+            1001,
+            7875
+        ]
+    },
+    {
+        "id": 64,
+        "upgradeCost": [
+            1001,
+            8000
+        ]
+    },
+    {
+        "id": 65,
+        "upgradeCost": [
+            1001,
+            8125
+        ]
+    },
+    {
+        "id": 66,
+        "upgradeCost": [
+            1001,
+            8250
+        ]
+    },
+    {
+        "id": 67,
+        "upgradeCost": [
+            1001,
+            8375
+        ]
+    },
+    {
+        "id": 68,
+        "upgradeCost": [
+            1001,
+            8500
+        ]
+    },
+    {
+        "id": 69,
+        "upgradeCost": [
+            1001,
+            8625
+        ]
+    },
+    {
+        "id": 70,
+        "upgradeCost": [
+            1001,
+            8750
+        ]
+    },
+    {
+        "id": 71,
+        "upgradeCost": [
+            1001,
+            8875
+        ]
+    },
+    {
+        "id": 72,
+        "upgradeCost": [
+            1001,
+            9000
+        ]
+    },
+    {
+        "id": 73,
+        "upgradeCost": [
+            1001,
+            9125
+        ]
+    },
+    {
+        "id": 74,
+        "upgradeCost": [
+            1001,
+            9250
+        ]
+    },
+    {
+        "id": 75,
+        "upgradeCost": [
+            1001,
+            11250
+        ]
+    },
+    {
+        "id": 76,
+        "upgradeCost": [
+            1001,
+            11400
+        ]
+    },
+    {
+        "id": 77,
+        "upgradeCost": [
+            1001,
+            11550
+        ]
+    },
+    {
+        "id": 78,
+        "upgradeCost": [
+            1001,
+            11700
+        ]
+    },
+    {
+        "id": 79,
+        "upgradeCost": [
+            1001,
+            11850
+        ]
+    },
+    {
+        "id": 80,
+        "upgradeCost": [
+            1001,
+            12000
+        ]
+    },
+    {
+        "id": 81,
+        "upgradeCost": [
+            1001,
+            12150
+        ]
+    },
+    {
+        "id": 82,
+        "upgradeCost": [
+            1001,
+            12300
+        ]
+    },
+    {
+        "id": 83,
+        "upgradeCost": [
+            1001,
+            12450
+        ]
+    },
+    {
+        "id": 84,
+        "upgradeCost": [
+            1001,
+            12600
+        ]
+    },
+    {
+        "id": 85,
+        "upgradeCost": [
+            1001,
+            12750
+        ]
+    },
+    {
+        "id": 86,
+        "upgradeCost": [
+            1001,
+            12900
+        ]
+    },
+    {
+        "id": 87,
+        "upgradeCost": [
+            1001,
+            13050
+        ]
+    },
+    {
+        "id": 88,
+        "upgradeCost": [
+            1001,
+            13200
+        ]
+    },
+    {
+        "id": 89,
+        "upgradeCost": [
+            1001,
+            13350
+        ]
+    },
+    {
+        "id": 90,
+        "upgradeCost": [
+            1001,
+            15750
+        ]
+    },
+    {
+        "id": 91,
+        "upgradeCost": [
+            1001,
+            15925
+        ]
+    },
+    {
+        "id": 92,
+        "upgradeCost": [
+            1001,
+            16100
+        ]
+    },
+    {
+        "id": 93,
+        "upgradeCost": [
+            1001,
+            16275
+        ]
+    },
+    {
+        "id": 94,
+        "upgradeCost": [
+            1001,
+            16450
+        ]
+    },
+    {
+        "id": 95,
+        "upgradeCost": [
+            1001,
+            16625
+        ]
+    },
+    {
+        "id": 96,
+        "upgradeCost": [
+            1001,
+            16800
+        ]
+    },
+    {
+        "id": 97,
+        "upgradeCost": [
+            1001,
+            16975
+        ]
+    },
+    {
+        "id": 98,
+        "upgradeCost": [
+            1001,
+            17150
+        ]
+    },
+    {
+        "id": 99,
+        "upgradeCost": [
+            1001,
+            17325
+        ]
+    },
+    {
+        "id": 100,
+        "upgradeCost": null
+    },
+    {
+        "id": null,
+        "upgradeCost": null
+    }
+]
