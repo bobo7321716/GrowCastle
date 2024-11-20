@@ -22,7 +22,6 @@ export default class SkillOperation2 extends SkillOperationBase {
     private xRangeVec: cc.Vec2 = null;
     private yRangeVec: cc.Vec2 = null;
     private resolve: (value: unknown) => void = null;
-    private
 
     protected onEnable(): void {
         this.touchNode.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
