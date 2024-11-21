@@ -1,1 +1,1801 @@
-[{"id":1,"hp":100,"mp":50,"mprecover":0.5,"upgradeCost":[1001,150],"castle_01":"castle_011","castle_02":"castle_012","castle_03":"castle_013","castle_04":"castle_014","castle_05":"castle_015"},{"id":2,"hp":150,"mp":55,"mprecover":0.5,"upgradeCost":[1001,200],"castle_01":"castle_011","castle_02":"castle_012","castle_03":"castle_013","castle_04":"castle_014","castle_05":"castle_015"},{"id":3,"hp":200,"mp":60,"mprecover":0.5,"upgradeCost":[1001,300],"castle_01":"castle_011","castle_02":"castle_012","castle_03":"castle_013","castle_04":"castle_014","castle_05":"castle_025"},{"id":4,"hp":250,"mp":65,"mprecover":0.5,"upgradeCost":[1001,400],"castle_01":"castle_011","castle_02":"castle_012","castle_03":"castle_013","castle_04":"castle_014","castle_05":"castle_025"},{"id":5,"hp":300,"mp":70,"mprecover":0.5,"upgradeCost":[1001,500],"castle_01":"castle_011","castle_02":"castle_012","castle_03":"castle_023","castle_04":"castle_014","castle_05":"castle_025"},{"id":6,"hp":350,"mp":75,"mprecover":0.5,"upgradeCost":[1001,600],"castle_01":"castle_011","castle_02":"castle_012","castle_03":"castle_023","castle_04":"castle_014","castle_05":"castle_025"},{"id":7,"hp":400,"mp":80,"mprecover":0.5,"upgradeCost":[1001,700],"castle_01":"castle_021","castle_02":"castle_012","castle_03":"castle_023","castle_04":"castle_014","castle_05":"castle_025"},{"id":8,"hp":450,"mp":85,"mprecover":0.5,"upgradeCost":[1001,1000],"castle_01":"castle_021","castle_02":"castle_012","castle_03":"castle_023","castle_04":"castle_014","castle_05":"castle_025"},{"id":9,"hp":500,"mp":90,"mprecover":0.5,"upgradeCost":[1001,1200],"castle_01":"castle_021","castle_02":"castle_022","castle_03":"castle_023","castle_04":"castle_014","castle_05":"castle_025"},{"id":10,"hp":550,"mp":95,"mprecover":0.5,"upgradeCost":[1002,5],"castle_01":"castle_021","castle_02":"castle_022","castle_03":"castle_023","castle_04":"castle_014","castle_05":"castle_025"},{"id":11,"hp":600,"mp":100,"mprecover":0.5,"upgradeCost":[1001,1600],"castle_01":"castle_021","castle_02":"castle_022","castle_03":"castle_023","castle_04":"castle_024","castle_05":"castle_025"},{"id":12,"hp":650,"mp":105,"mprecover":0.5,"upgradeCost":[1001,1800],"castle_01":"castle_021","castle_02":"castle_022","castle_03":"castle_023","castle_04":"castle_024","castle_05":"castle_025"},{"id":13,"hp":700,"mp":110,"mprecover":0.5,"upgradeCost":[1001,2000],"castle_01":"castle_021","castle_02":"castle_022","castle_03":"castle_023","castle_04":"castle_024","castle_05":"castle_035"},{"id":14,"hp":750,"mp":115,"mprecover":0.5,"upgradeCost":[1001,2200],"castle_01":"castle_021","castle_02":"castle_022","castle_03":"castle_023","castle_04":"castle_024","castle_05":"castle_035"},{"id":15,"hp":800,"mp":120,"mprecover":0.5,"upgradeCost":[1001,2400],"castle_01":"castle_021","castle_02":"castle_022","castle_03":"castle_023","castle_04":"castle_024","castle_05":"castle_035"},{"id":16,"hp":850,"mp":125,"mprecover":0.5,"upgradeCost":[1001,2000],"castle_01":"castle_021","castle_02":"castle_022","castle_03":"castle_023","castle_04":"castle_024","castle_05":"castle_035"},{"id":17,"hp":900,"mp":130,"mprecover":0.5,"upgradeCost":[1001,2300],"castle_01":"castle_021","castle_02":"castle_022","castle_03":"castle_023","castle_04":"castle_024","castle_05":"castle_035"},{"id":18,"hp":950,"mp":135,"mprecover":0.5,"upgradeCost":[1001,2600],"castle_01":"castle_021","castle_02":"castle_022","castle_03":"castle_033","castle_04":"castle_024","castle_05":"castle_035"},{"id":19,"hp":1000,"mp":140,"mprecover":0.5,"upgradeCost":[1001,2900],"castle_01":"castle_021","castle_02":"castle_022","castle_03":"castle_033","castle_04":"castle_024","castle_05":"castle_035"},{"id":20,"hp":1050,"mp":145,"mprecover":0.5,"upgradeCost":[1002,10],"castle_01":"castle_021","castle_02":"castle_022","castle_03":"castle_033","castle_04":"castle_024","castle_05":"castle_035"},{"id":21,"hp":1100,"mp":150,"mprecover":0.5,"upgradeCost":[1001,3500],"castle_01":"castle_021","castle_02":"castle_022","castle_03":"castle_033","castle_04":"castle_024","castle_05":"castle_035"},{"id":22,"hp":1150,"mp":155,"mprecover":0.5,"upgradeCost":[1001,3800],"castle_01":"castle_021","castle_02":"castle_022","castle_03":"castle_033","castle_04":"castle_024","castle_05":"castle_035"},{"id":23,"hp":1200,"mp":160,"mprecover":0.5,"upgradeCost":[1001,4100],"castle_01":"castle_031","castle_02":"castle_022","castle_03":"castle_033","castle_04":"castle_024","castle_05":"castle_035"},{"id":24,"hp":1250,"mp":165,"mprecover":0.5,"upgradeCost":[1001,4400],"castle_01":"castle_031","castle_02":"castle_022","castle_03":"castle_033","castle_04":"castle_024","castle_05":"castle_035"},{"id":25,"hp":1300,"mp":170,"mprecover":0.5,"upgradeCost":[1001,4700],"castle_01":"castle_031","castle_02":"castle_022","castle_03":"castle_033","castle_04":"castle_024","castle_05":"castle_035"},{"id":26,"hp":1350,"mp":175,"mprecover":0.5,"upgradeCost":[1001,5000],"castle_01":"castle_031","castle_02":"castle_022","castle_03":"castle_033","castle_04":"castle_024","castle_05":"castle_035"},{"id":27,"hp":1400,"mp":180,"mprecover":0.5,"upgradeCost":[1001,5300],"castle_01":"castle_031","castle_02":"castle_022","castle_03":"castle_033","castle_04":"castle_024","castle_05":"castle_035"},{"id":28,"hp":1450,"mp":185,"mprecover":0.5,"upgradeCost":[1001,5600],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_033","castle_04":"castle_024","castle_05":"castle_035"},{"id":29,"hp":1500,"mp":190,"mprecover":0.5,"upgradeCost":[1001,5900],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_033","castle_04":"castle_024","castle_05":"castle_035"},{"id":30,"hp":1550,"mp":195,"mprecover":0.5,"upgradeCost":[1002,15],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_033","castle_04":"castle_024","castle_05":"castle_035"},{"id":31,"hp":1600,"mp":200,"mprecover":0.5,"upgradeCost":[1001,6500],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_033","castle_04":"castle_024","castle_05":"castle_035"},{"id":32,"hp":1650,"mp":205,"mprecover":0.5,"upgradeCost":[1001,6800],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_033","castle_04":"castle_024","castle_05":"castle_035"},{"id":33,"hp":1700,"mp":210,"mprecover":0.5,"upgradeCost":[1001,7100],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_033","castle_04":"castle_034","castle_05":"castle_035"},{"id":34,"hp":1750,"mp":215,"mprecover":0.5,"upgradeCost":[1001,7400],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_033","castle_04":"castle_034","castle_05":"castle_035"},{"id":35,"hp":1800,"mp":220,"mprecover":0.5,"upgradeCost":[1001,7700],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_033","castle_04":"castle_034","castle_05":"castle_035"},{"id":36,"hp":1850,"mp":225,"mprecover":0.5,"upgradeCost":[1001,8000],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_033","castle_04":"castle_034","castle_05":"castle_035"},{"id":37,"hp":1900,"mp":230,"mprecover":0.5,"upgradeCost":[1001,8300],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_033","castle_04":"castle_034","castle_05":"castle_035"},{"id":38,"hp":1950,"mp":235,"mprecover":0.5,"upgradeCost":[1001,8600],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_033","castle_04":"castle_034","castle_05":"castle_045"},{"id":39,"hp":2000,"mp":240,"mprecover":0.5,"upgradeCost":[1001,8900],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_033","castle_04":"castle_034","castle_05":"castle_045"},{"id":40,"hp":2050,"mp":245,"mprecover":0.5,"upgradeCost":[1002,20],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_033","castle_04":"castle_034","castle_05":"castle_045"},{"id":41,"hp":2100,"mp":250,"mprecover":0.5,"upgradeCost":[1001,9500],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_033","castle_04":"castle_034","castle_05":"castle_045"},{"id":42,"hp":2150,"mp":255,"mprecover":0.5,"upgradeCost":[1001,9800],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_033","castle_04":"castle_034","castle_05":"castle_045"},{"id":43,"hp":2200,"mp":260,"mprecover":0.5,"upgradeCost":[1001,10100],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_033","castle_04":"castle_034","castle_05":"castle_045"},{"id":44,"hp":2250,"mp":265,"mprecover":0.5,"upgradeCost":[1001,10400],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_033","castle_04":"castle_034","castle_05":"castle_045"},{"id":45,"hp":2300,"mp":270,"mprecover":0.5,"upgradeCost":[1001,10700],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_033","castle_04":"castle_034","castle_05":"castle_045"},{"id":46,"hp":2350,"mp":275,"mprecover":0.5,"upgradeCost":[1001,11000],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_033","castle_04":"castle_034","castle_05":"castle_045"},{"id":47,"hp":2400,"mp":280,"mprecover":0.5,"upgradeCost":[1001,11300],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":48,"hp":2450,"mp":285,"mprecover":0.5,"upgradeCost":[1001,11600],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":49,"hp":2500,"mp":290,"mprecover":0.5,"upgradeCost":[1001,11900],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":50,"hp":2550,"mp":295,"mprecover":0.5,"upgradeCost":[1002,25],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":51,"hp":2600,"mp":300,"mprecover":0.5,"upgradeCost":[1001,12900],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":52,"hp":2650,"mp":305,"mprecover":0.5,"upgradeCost":[1001,13200],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":53,"hp":2700,"mp":310,"mprecover":0.5,"upgradeCost":[1001,13500],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":54,"hp":2750,"mp":315,"mprecover":0.5,"upgradeCost":[1001,13800],"castle_01":"castle_031","castle_02":"castle_032","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":55,"hp":2800,"mp":320,"mprecover":0.5,"upgradeCost":[1001,14100],"castle_01":"castle_041","castle_02":"castle_032","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":56,"hp":2850,"mp":325,"mprecover":0.5,"upgradeCost":[1001,14400],"castle_01":"castle_041","castle_02":"castle_032","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":57,"hp":2900,"mp":330,"mprecover":0.5,"upgradeCost":[1001,14700],"castle_01":"castle_041","castle_02":"castle_032","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":58,"hp":2950,"mp":335,"mprecover":0.5,"upgradeCost":[1001,15000],"castle_01":"castle_041","castle_02":"castle_032","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":59,"hp":3000,"mp":340,"mprecover":0.5,"upgradeCost":[1001,15300],"castle_01":"castle_041","castle_02":"castle_032","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":60,"hp":3050,"mp":345,"mprecover":0.5,"upgradeCost":[1002,30],"castle_01":"castle_041","castle_02":"castle_032","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":61,"hp":3100,"mp":350,"mprecover":0.5,"upgradeCost":[1001,16300],"castle_01":"castle_041","castle_02":"castle_032","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":62,"hp":3150,"mp":355,"mprecover":0.5,"upgradeCost":[1001,17100],"castle_01":"castle_041","castle_02":"castle_032","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":63,"hp":3200,"mp":360,"mprecover":0.5,"upgradeCost":[1001,17900],"castle_01":"castle_041","castle_02":"castle_032","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":64,"hp":3250,"mp":365,"mprecover":0.5,"upgradeCost":[1001,18700],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":65,"hp":3300,"mp":370,"mprecover":0.5,"upgradeCost":[1001,19500],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":66,"hp":3350,"mp":375,"mprecover":0.5,"upgradeCost":[1001,20400],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":67,"hp":3400,"mp":380,"mprecover":0.5,"upgradeCost":[1001,21300],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":68,"hp":3450,"mp":385,"mprecover":0.5,"upgradeCost":[1001,22200],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":69,"hp":3500,"mp":390,"mprecover":0.5,"upgradeCost":[1001,23100],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":70,"hp":3550,"mp":395,"mprecover":0.5,"upgradeCost":[1002,35],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":71,"hp":3600,"mp":400,"mprecover":0.5,"upgradeCost":[1001,23700],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_034","castle_05":"castle_045"},{"id":72,"hp":3650,"mp":405,"mprecover":0.5,"upgradeCost":[1001,24700],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_044","castle_05":"castle_045"},{"id":73,"hp":3700,"mp":410,"mprecover":0.5,"upgradeCost":[1001,25700],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_044","castle_05":"castle_045"},{"id":74,"hp":3750,"mp":415,"mprecover":0.5,"upgradeCost":[1001,26700],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_044","castle_05":"castle_045"},{"id":75,"hp":3800,"mp":420,"mprecover":0.5,"upgradeCost":[1001,27700],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_044","castle_05":"castle_045"},{"id":76,"hp":3850,"mp":425,"mprecover":0.5,"upgradeCost":[1001,28700],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_044","castle_05":"castle_045"},{"id":77,"hp":3900,"mp":430,"mprecover":0.5,"upgradeCost":[1001,29700],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_044","castle_05":"castle_045"},{"id":78,"hp":3950,"mp":435,"mprecover":0.5,"upgradeCost":[1001,30700],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_044","castle_05":"castle_045"},{"id":79,"hp":4000,"mp":440,"mprecover":0.5,"upgradeCost":[1001,31700],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_044","castle_05":"castle_045"},{"id":80,"hp":4050,"mp":445,"mprecover":0.5,"upgradeCost":[1002,40],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_044","castle_05":"castle_055"},{"id":81,"hp":4100,"mp":450,"mprecover":0.5,"upgradeCost":[1001,33700],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_044","castle_05":"castle_055"},{"id":82,"hp":4150,"mp":455,"mprecover":0.5,"upgradeCost":[1001,34800],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_044","castle_05":"castle_055"},{"id":83,"hp":4200,"mp":460,"mprecover":0.5,"upgradeCost":[1001,35900],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_044","castle_05":"castle_055"},{"id":84,"hp":4250,"mp":465,"mprecover":0.5,"upgradeCost":[1001,37000],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_044","castle_05":"castle_055"},{"id":85,"hp":4300,"mp":470,"mprecover":0.5,"upgradeCost":[1001,38100],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_044","castle_05":"castle_055"},{"id":86,"hp":4350,"mp":475,"mprecover":0.5,"upgradeCost":[1001,39200],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_044","castle_05":"castle_055"},{"id":87,"hp":4400,"mp":480,"mprecover":0.5,"upgradeCost":[1001,40300],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_044","castle_05":"castle_055"},{"id":88,"hp":4450,"mp":485,"mprecover":0.5,"upgradeCost":[1001,41400],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_044","castle_05":"castle_055"},{"id":89,"hp":4500,"mp":490,"mprecover":0.5,"upgradeCost":[1001,42500],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_043","castle_04":"castle_044","castle_05":"castle_055"},{"id":90,"hp":4550,"mp":495,"mprecover":0.5,"upgradeCost":[1002,45],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":91,"hp":4600,"mp":500,"mprecover":0.5,"upgradeCost":[1001,44700],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":92,"hp":4650,"mp":505,"mprecover":0.5,"upgradeCost":[1001,45900],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":93,"hp":4700,"mp":510,"mprecover":0.5,"upgradeCost":[1001,47100],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":94,"hp":4750,"mp":515,"mprecover":0.5,"upgradeCost":[1001,48300],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":95,"hp":4800,"mp":520,"mprecover":0.5,"upgradeCost":[1001,49500],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":96,"hp":4850,"mp":525,"mprecover":0.5,"upgradeCost":[1001,50700],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":97,"hp":4900,"mp":530,"mprecover":0.5,"upgradeCost":[1001,51900],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":98,"hp":4950,"mp":535,"mprecover":0.5,"upgradeCost":[1001,53100],"castle_01":"castle_041","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":99,"hp":5000,"mp":540,"mprecover":0.5,"upgradeCost":[1002,50],"castle_01":"castle_051","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":100,"hp":5050,"mp":545,"mprecover":0.5,"upgradeCost":[1001,55500],"castle_01":"castle_051","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":101,"hp":5100,"mp":550,"mprecover":0.5,"upgradeCost":[1001,56800],"castle_01":"castle_051","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":102,"hp":5150,"mp":555,"mprecover":0.5,"upgradeCost":[1001,58100],"castle_01":"castle_051","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":103,"hp":5200,"mp":560,"mprecover":0.5,"upgradeCost":[1001,59400],"castle_01":"castle_051","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":104,"hp":5250,"mp":565,"mprecover":0.5,"upgradeCost":[1001,60700],"castle_01":"castle_051","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":105,"hp":5300,"mp":570,"mprecover":0.5,"upgradeCost":[1001,62000],"castle_01":"castle_051","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":106,"hp":5350,"mp":575,"mprecover":0.5,"upgradeCost":[1001,63300],"castle_01":"castle_051","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":107,"hp":5400,"mp":580,"mprecover":0.5,"upgradeCost":[1001,64600],"castle_01":"castle_051","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":108,"hp":5450,"mp":585,"mprecover":0.5,"upgradeCost":[1001,65900],"castle_01":"castle_051","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":109,"hp":5500,"mp":590,"mprecover":0.5,"upgradeCost":[1002,55],"castle_01":"castle_051","castle_02":"castle_042","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":110,"hp":5550,"mp":595,"mprecover":0.5,"upgradeCost":[1001,68500],"castle_01":"castle_051","castle_02":"castle_052","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":111,"hp":5600,"mp":600,"mprecover":0.5,"upgradeCost":[1001,69900],"castle_01":"castle_051","castle_02":"castle_052","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":112,"hp":5650,"mp":605,"mprecover":0.5,"upgradeCost":[1001,71300],"castle_01":"castle_051","castle_02":"castle_052","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":113,"hp":5700,"mp":610,"mprecover":0.5,"upgradeCost":[1001,72700],"castle_01":"castle_051","castle_02":"castle_052","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":114,"hp":5750,"mp":615,"mprecover":0.5,"upgradeCost":[1001,74100],"castle_01":"castle_051","castle_02":"castle_052","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":115,"hp":5800,"mp":620,"mprecover":0.5,"upgradeCost":[1001,75500],"castle_01":"castle_051","castle_02":"castle_052","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":116,"hp":5850,"mp":625,"mprecover":0.5,"upgradeCost":[1001,76900],"castle_01":"castle_051","castle_02":"castle_052","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":117,"hp":5900,"mp":630,"mprecover":0.5,"upgradeCost":[1001,78300],"castle_01":"castle_051","castle_02":"castle_052","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":118,"hp":5950,"mp":635,"mprecover":0.5,"upgradeCost":[1001,79700],"castle_01":"castle_051","castle_02":"castle_052","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":119,"hp":6000,"mp":640,"mprecover":0.5,"upgradeCost":[1002,60],"castle_01":"castle_051","castle_02":"castle_052","castle_03":"castle_053","castle_04":"castle_044","castle_05":"castle_055"},{"id":120,"hp":6050,"mp":645,"mprecover":0.5,"upgradeCost":[null],"castle_01":"castle_051","castle_02":"castle_052","castle_03":"castle_053","castle_04":"castle_054","castle_05":"castle_055"}]
+[
+    {
+        "id": 1,
+        "hp": 100,
+        "mp": 10,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            100
+        ],
+        "castle_01": "castle_011",
+        "castle_02": "castle_012",
+        "castle_03": "castle_013",
+        "castle_04": "castle_014",
+        "castle_05": "castle_015"
+    },
+    {
+        "id": 2,
+        "hp": 150,
+        "mp": 12,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            110
+        ],
+        "castle_01": "castle_011",
+        "castle_02": "castle_012",
+        "castle_03": "castle_013",
+        "castle_04": "castle_014",
+        "castle_05": "castle_015"
+    },
+    {
+        "id": 3,
+        "hp": 200,
+        "mp": 14,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            120
+        ],
+        "castle_01": "castle_011",
+        "castle_02": "castle_012",
+        "castle_03": "castle_013",
+        "castle_04": "castle_014",
+        "castle_05": "castle_025"
+    },
+    {
+        "id": 4,
+        "hp": 250,
+        "mp": 16,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            130
+        ],
+        "castle_01": "castle_011",
+        "castle_02": "castle_012",
+        "castle_03": "castle_013",
+        "castle_04": "castle_014",
+        "castle_05": "castle_025"
+    },
+    {
+        "id": 5,
+        "hp": 300,
+        "mp": 18,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            140
+        ],
+        "castle_01": "castle_011",
+        "castle_02": "castle_012",
+        "castle_03": "castle_023",
+        "castle_04": "castle_014",
+        "castle_05": "castle_025"
+    },
+    {
+        "id": 6,
+        "hp": 350,
+        "mp": 20,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            150
+        ],
+        "castle_01": "castle_011",
+        "castle_02": "castle_012",
+        "castle_03": "castle_023",
+        "castle_04": "castle_014",
+        "castle_05": "castle_025"
+    },
+    {
+        "id": 7,
+        "hp": 400,
+        "mp": 22,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            160
+        ],
+        "castle_01": "castle_021",
+        "castle_02": "castle_012",
+        "castle_03": "castle_023",
+        "castle_04": "castle_014",
+        "castle_05": "castle_025"
+    },
+    {
+        "id": 8,
+        "hp": 450,
+        "mp": 24,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            170
+        ],
+        "castle_01": "castle_021",
+        "castle_02": "castle_012",
+        "castle_03": "castle_023",
+        "castle_04": "castle_014",
+        "castle_05": "castle_025"
+    },
+    {
+        "id": 9,
+        "hp": 500,
+        "mp": 26,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            180
+        ],
+        "castle_01": "castle_021",
+        "castle_02": "castle_022",
+        "castle_03": "castle_023",
+        "castle_04": "castle_014",
+        "castle_05": "castle_025"
+    },
+    {
+        "id": 10,
+        "hp": 550,
+        "mp": 28,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            200
+        ],
+        "castle_01": "castle_021",
+        "castle_02": "castle_022",
+        "castle_03": "castle_023",
+        "castle_04": "castle_014",
+        "castle_05": "castle_025"
+    },
+    {
+        "id": 11,
+        "hp": 600,
+        "mp": 100,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            1600
+        ],
+        "castle_01": "castle_021",
+        "castle_02": "castle_022",
+        "castle_03": "castle_023",
+        "castle_04": "castle_024",
+        "castle_05": "castle_025"
+    },
+    {
+        "id": 12,
+        "hp": 650,
+        "mp": 105,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            1800
+        ],
+        "castle_01": "castle_021",
+        "castle_02": "castle_022",
+        "castle_03": "castle_023",
+        "castle_04": "castle_024",
+        "castle_05": "castle_025"
+    },
+    {
+        "id": 13,
+        "hp": 700,
+        "mp": 110,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            2000
+        ],
+        "castle_01": "castle_021",
+        "castle_02": "castle_022",
+        "castle_03": "castle_023",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 14,
+        "hp": 750,
+        "mp": 115,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            2200
+        ],
+        "castle_01": "castle_021",
+        "castle_02": "castle_022",
+        "castle_03": "castle_023",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 15,
+        "hp": 800,
+        "mp": 120,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            2400
+        ],
+        "castle_01": "castle_021",
+        "castle_02": "castle_022",
+        "castle_03": "castle_023",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 16,
+        "hp": 850,
+        "mp": 125,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            2000
+        ],
+        "castle_01": "castle_021",
+        "castle_02": "castle_022",
+        "castle_03": "castle_023",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 17,
+        "hp": 900,
+        "mp": 130,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            2300
+        ],
+        "castle_01": "castle_021",
+        "castle_02": "castle_022",
+        "castle_03": "castle_023",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 18,
+        "hp": 950,
+        "mp": 135,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            2600
+        ],
+        "castle_01": "castle_021",
+        "castle_02": "castle_022",
+        "castle_03": "castle_033",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 19,
+        "hp": 1000,
+        "mp": 140,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            2900
+        ],
+        "castle_01": "castle_021",
+        "castle_02": "castle_022",
+        "castle_03": "castle_033",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 20,
+        "hp": 1050,
+        "mp": 145,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1002,
+            10
+        ],
+        "castle_01": "castle_021",
+        "castle_02": "castle_022",
+        "castle_03": "castle_033",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 21,
+        "hp": 1100,
+        "mp": 150,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            3500
+        ],
+        "castle_01": "castle_021",
+        "castle_02": "castle_022",
+        "castle_03": "castle_033",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 22,
+        "hp": 1150,
+        "mp": 155,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            3800
+        ],
+        "castle_01": "castle_021",
+        "castle_02": "castle_022",
+        "castle_03": "castle_033",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 23,
+        "hp": 1200,
+        "mp": 160,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            4100
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_022",
+        "castle_03": "castle_033",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 24,
+        "hp": 1250,
+        "mp": 165,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            4400
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_022",
+        "castle_03": "castle_033",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 25,
+        "hp": 1300,
+        "mp": 170,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            4700
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_022",
+        "castle_03": "castle_033",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 26,
+        "hp": 1350,
+        "mp": 175,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            5000
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_022",
+        "castle_03": "castle_033",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 27,
+        "hp": 1400,
+        "mp": 180,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            5300
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_022",
+        "castle_03": "castle_033",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 28,
+        "hp": 1450,
+        "mp": 185,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            5600
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_033",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 29,
+        "hp": 1500,
+        "mp": 190,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            5900
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_033",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 30,
+        "hp": 1550,
+        "mp": 195,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1002,
+            15
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_033",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 31,
+        "hp": 1600,
+        "mp": 200,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            6500
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_033",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 32,
+        "hp": 1650,
+        "mp": 205,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            6800
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_033",
+        "castle_04": "castle_024",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 33,
+        "hp": 1700,
+        "mp": 210,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            7100
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_033",
+        "castle_04": "castle_034",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 34,
+        "hp": 1750,
+        "mp": 215,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            7400
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_033",
+        "castle_04": "castle_034",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 35,
+        "hp": 1800,
+        "mp": 220,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            7700
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_033",
+        "castle_04": "castle_034",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 36,
+        "hp": 1850,
+        "mp": 225,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            8000
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_033",
+        "castle_04": "castle_034",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 37,
+        "hp": 1900,
+        "mp": 230,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            8300
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_033",
+        "castle_04": "castle_034",
+        "castle_05": "castle_035"
+    },
+    {
+        "id": 38,
+        "hp": 1950,
+        "mp": 235,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            8600
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_033",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 39,
+        "hp": 2000,
+        "mp": 240,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            8900
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_033",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 40,
+        "hp": 2050,
+        "mp": 245,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1002,
+            20
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_033",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 41,
+        "hp": 2100,
+        "mp": 250,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            9500
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_033",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 42,
+        "hp": 2150,
+        "mp": 255,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            9800
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_033",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 43,
+        "hp": 2200,
+        "mp": 260,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            10100
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_033",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 44,
+        "hp": 2250,
+        "mp": 265,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            10400
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_033",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 45,
+        "hp": 2300,
+        "mp": 270,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            10700
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_033",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 46,
+        "hp": 2350,
+        "mp": 275,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            11000
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_033",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 47,
+        "hp": 2400,
+        "mp": 280,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            11300
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 48,
+        "hp": 2450,
+        "mp": 285,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            11600
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 49,
+        "hp": 2500,
+        "mp": 290,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            11900
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 50,
+        "hp": 2550,
+        "mp": 295,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1002,
+            25
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 51,
+        "hp": 2600,
+        "mp": 300,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            12900
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 52,
+        "hp": 2650,
+        "mp": 305,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            13200
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 53,
+        "hp": 2700,
+        "mp": 310,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            13500
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 54,
+        "hp": 2750,
+        "mp": 315,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            13800
+        ],
+        "castle_01": "castle_031",
+        "castle_02": "castle_032",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 55,
+        "hp": 2800,
+        "mp": 320,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            14100
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_032",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 56,
+        "hp": 2850,
+        "mp": 325,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            14400
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_032",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 57,
+        "hp": 2900,
+        "mp": 330,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            14700
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_032",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 58,
+        "hp": 2950,
+        "mp": 335,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            15000
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_032",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 59,
+        "hp": 3000,
+        "mp": 340,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            15300
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_032",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 60,
+        "hp": 3050,
+        "mp": 345,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1002,
+            30
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_032",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 61,
+        "hp": 3100,
+        "mp": 350,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            16300
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_032",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 62,
+        "hp": 3150,
+        "mp": 355,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            17100
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_032",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 63,
+        "hp": 3200,
+        "mp": 360,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            17900
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_032",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 64,
+        "hp": 3250,
+        "mp": 365,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            18700
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 65,
+        "hp": 3300,
+        "mp": 370,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            19500
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 66,
+        "hp": 3350,
+        "mp": 375,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            20400
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 67,
+        "hp": 3400,
+        "mp": 380,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            21300
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 68,
+        "hp": 3450,
+        "mp": 385,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            22200
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 69,
+        "hp": 3500,
+        "mp": 390,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            23100
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 70,
+        "hp": 3550,
+        "mp": 395,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1002,
+            35
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 71,
+        "hp": 3600,
+        "mp": 400,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            23700
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_034",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 72,
+        "hp": 3650,
+        "mp": 405,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            24700
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_044",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 73,
+        "hp": 3700,
+        "mp": 410,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            25700
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_044",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 74,
+        "hp": 3750,
+        "mp": 415,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            26700
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_044",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 75,
+        "hp": 3800,
+        "mp": 420,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            27700
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_044",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 76,
+        "hp": 3850,
+        "mp": 425,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            28700
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_044",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 77,
+        "hp": 3900,
+        "mp": 430,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            29700
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_044",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 78,
+        "hp": 3950,
+        "mp": 435,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            30700
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_044",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 79,
+        "hp": 4000,
+        "mp": 440,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            31700
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_044",
+        "castle_05": "castle_045"
+    },
+    {
+        "id": 80,
+        "hp": 4050,
+        "mp": 445,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1002,
+            40
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 81,
+        "hp": 4100,
+        "mp": 450,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            33700
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 82,
+        "hp": 4150,
+        "mp": 455,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            34800
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 83,
+        "hp": 4200,
+        "mp": 460,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            35900
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 84,
+        "hp": 4250,
+        "mp": 465,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            37000
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 85,
+        "hp": 4300,
+        "mp": 470,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            38100
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 86,
+        "hp": 4350,
+        "mp": 475,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            39200
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 87,
+        "hp": 4400,
+        "mp": 480,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            40300
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 88,
+        "hp": 4450,
+        "mp": 485,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            41400
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 89,
+        "hp": 4500,
+        "mp": 490,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            42500
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_043",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 90,
+        "hp": 4550,
+        "mp": 495,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1002,
+            45
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 91,
+        "hp": 4600,
+        "mp": 500,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            44700
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 92,
+        "hp": 4650,
+        "mp": 505,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            45900
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 93,
+        "hp": 4700,
+        "mp": 510,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            47100
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 94,
+        "hp": 4750,
+        "mp": 515,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            48300
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 95,
+        "hp": 4800,
+        "mp": 520,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            49500
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 96,
+        "hp": 4850,
+        "mp": 525,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            50700
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 97,
+        "hp": 4900,
+        "mp": 530,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            51900
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 98,
+        "hp": 4950,
+        "mp": 535,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            53100
+        ],
+        "castle_01": "castle_041",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 99,
+        "hp": 5000,
+        "mp": 540,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1002,
+            50
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 100,
+        "hp": 5050,
+        "mp": 545,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            55500
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 101,
+        "hp": 5100,
+        "mp": 550,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            56800
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 102,
+        "hp": 5150,
+        "mp": 555,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            58100
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 103,
+        "hp": 5200,
+        "mp": 560,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            59400
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 104,
+        "hp": 5250,
+        "mp": 565,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            60700
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 105,
+        "hp": 5300,
+        "mp": 570,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            62000
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 106,
+        "hp": 5350,
+        "mp": 575,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            63300
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 107,
+        "hp": 5400,
+        "mp": 580,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            64600
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 108,
+        "hp": 5450,
+        "mp": 585,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            65900
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 109,
+        "hp": 5500,
+        "mp": 590,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1002,
+            55
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_042",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 110,
+        "hp": 5550,
+        "mp": 595,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            68500
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_052",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 111,
+        "hp": 5600,
+        "mp": 600,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            69900
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_052",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 112,
+        "hp": 5650,
+        "mp": 605,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            71300
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_052",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 113,
+        "hp": 5700,
+        "mp": 610,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            72700
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_052",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 114,
+        "hp": 5750,
+        "mp": 615,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            74100
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_052",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 115,
+        "hp": 5800,
+        "mp": 620,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            75500
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_052",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 116,
+        "hp": 5850,
+        "mp": 625,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            76900
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_052",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 117,
+        "hp": 5900,
+        "mp": 630,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            78300
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_052",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 118,
+        "hp": 5950,
+        "mp": 635,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1001,
+            79700
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_052",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 119,
+        "hp": 6000,
+        "mp": 640,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            1002,
+            60
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_052",
+        "castle_03": "castle_053",
+        "castle_04": "castle_044",
+        "castle_05": "castle_055"
+    },
+    {
+        "id": 120,
+        "hp": 6050,
+        "mp": 645,
+        "mprecover": 0.5,
+        "upgradeCost": [
+            null
+        ],
+        "castle_01": "castle_051",
+        "castle_02": "castle_052",
+        "castle_03": "castle_053",
+        "castle_04": "castle_054",
+        "castle_05": "castle_055"
+    }
+]
