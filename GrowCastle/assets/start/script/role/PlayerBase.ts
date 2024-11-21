@@ -107,9 +107,11 @@ export abstract class PlayerBase extends RoleBase {
     }
 
     fightStart() {
+        this.refreshPlayerInfo();
         this.mpProgress.init(this.maxMp);
         this.roleDataInfo.mp = 0;
         this.mpProgress.setCurNum(this.roleDataInfo.mp);
+        this.isDeath = false;
     }
 
     fightEnd() {
